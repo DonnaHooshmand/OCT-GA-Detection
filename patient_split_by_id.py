@@ -1,35 +1,35 @@
 import os
 import pandas as pd
 
-#data paths
-img_labels = pd.read_csv('data/per_scan_data.csv')
-all_slices_path = 'dummy_data'
+# #data paths
+# img_labels = pd.read_csv('data/per_scan_data.csv')
+# all_slices_path = 'dummy_data'
 
-#images
-all_slices = os.listdir(all_slices_path)
-all_imgs = [item for item in all_slices if item.endswith('.jpg')]
+# #images
+# all_slices = os.listdir(all_slices_path)
+# all_imgs = [item for item in all_slices if item.endswith('.jpg')]
 
-#labels
-def find_label_patient_id(img_name, img_labels):
-    name_column = 'scan_name'
+# #labels
+# def find_label_patient_id(img_name, img_labels):
+#     name_column = 'scan_name'
 
-    found_row = img_labels[img_labels[name_column] == img_name]
-    return found_row['status'].item()
+#     found_row = img_labels[img_labels[name_column] == img_name]
+#     return found_row['status'].item()
 
-labels = []
-for i in range(len(all_imgs)):
-    img_name = all_imgs[i]
+# labels = []
+# for i in range(len(all_imgs)):
+#     img_name = all_imgs[i]
 
-    label = find_label(img_name, img_labels)
-    if label == True:
-        labels.append(1)
-    else:
-        labels.append(0)
+#     label = find_label(img_name, img_labels)
+#     if label == True:
+#         labels.append(1)
+#     else:
+#         labels.append(0)
 
-# Predefined lists of patient IDs for each set
-train_patient_id = [64,47,341]
-test_patient_id = [345,321,190]
-val_patient_id = [578,326]
+# # Predefined lists of patient IDs for each set
+# train_patient_id = [64,47,341]
+# test_patient_id = [345,321,190]
+# val_patient_id = [578,326]
 
 def split_by_id(img_labels, all_imgs, labels, train_patient_id,test_patient_id,val_patient_id):
 
