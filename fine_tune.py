@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 import os
 import torch.nn as nn
 from patient_split_by_id import *
+import numpy as np
 
 print('check 1')
 ## TODO: get list of image paths and labels
@@ -32,7 +33,7 @@ labels = []
 for i in range(len(all_imgs)):
     img_name = all_imgs[i]
 
-    label = find_label(img_name, img_labels)
+    label = find_label_patient_id(img_name, img_labels)
     if label == True:
         labels.append(1)
     else:
@@ -103,6 +104,9 @@ print('check 9')
 train_losses = []
 val_losses = []
 val_accuracies = []
+
+best_val_loss = np.inf #initialize best validation loss to infinity
+
 # Training loop
 for epoch in range(num_epochs):
     print('starting epoch ', epoch)
