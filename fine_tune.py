@@ -105,7 +105,7 @@ train_losses = []
 val_losses = []
 val_accuracies = []
 
-best_val_loss = np.inf #initialize best validation loss to infinity
+best_val_loss = float('inf')
 
 # Training loop
 for epoch in range(num_epochs):
@@ -161,13 +161,19 @@ for epoch in range(num_epochs):
     val_loss /= len(val_dataloader)
     train_loss /= len(train_dataloader)
 
+    if val_loss < best_val_loss:
+        best_val_loss = val_loss
+        # Save the best model
+        model.save_pretrained("fine_tuned_resnet18_3")
+        print(f"Best model saved with validation loss: {best_val_loss}")
+
     # print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}, Val Loss: {val_loss:.4f}, Val Acc: {val_accuracy:.2f}%")
     print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {train_loss:.4f}, Val Loss: {val_loss:.4f}")
 
     # Store metrics
     train_losses.append(train_loss)
     val_losses.append(val_loss)
-    # val_accuracies.append(val_accuracy)
+    # val_accuracies.append
 
 # Save the fine-tuned model
 model.save_pretrained("fine_tuned_resnet18_3")
