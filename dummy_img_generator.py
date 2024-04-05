@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-img_labels = pd.read_csv('data/per_scan_data.csv')
+img_labels = pd.read_csv('FoveaDetection/fovea_detection_data.csv')
 dummy_image_path = 'dummy.jpg'
 
 os.makedirs('dummy_data', exist_ok=True)
