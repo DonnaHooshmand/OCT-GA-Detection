@@ -86,7 +86,11 @@ def main():
 
     # Hardcoded configuration parameters
     csv_file = './data/train_dataset.csv'
-    data_dir = './data/train'
+
+    # Construct the path using the user ID from the environment to ensure it's dynamic and correct
+    user_id = os.getuid()
+    data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
+
     epochs = 10
     batch_size = 32
     lr = 0.001
