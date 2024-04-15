@@ -4,7 +4,7 @@ import pandas as pd
 import torch
 import torch.nn as nn
 import torchvision
-import torchvision.transforms as transforms
+import torchvision.transforms as transforms, Compose, Resize, Grayscale, ToTensor, Normalize, Lambda
 from torchvision.models import resnet18
 from torch.utils.data import DataLoader, Dataset
 from PIL import Image
@@ -14,17 +14,18 @@ def setup_logging():
     """Setup basic logging."""
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def load_data(csv_file, data_dir, batch_size):
-    """Load data using a custom dataset generator with CSV filtering."""
+def load_data(csv_file, data_dir, batch_size, num_samples=None):
+    """Load data using a custom dataset generator with CSV filtering and optional sample limitation."""
     # Load the CSV file to filter images
     df = pd.read_csv(csv_file)
     valid_images = set(df['scan_name'].values)
 
-    transform = transforms.Compose([
-        transforms.Resize((224, 224)),
-        transforms.RandomHorizontalFlip(),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+    transform = Compose([
+        Resize((224, 224)),
+        Grayscale(num_output_channels=1),  # Grayscale image with one channel
+        ToTensor(),
+        Normalize(mean=[0.485], std=[0.229]),  # Normalizing the single channel
+        Lambda(lambda x: x.repeat(3, 1, 1))  # Repeating the single channel across to get 3 channels
     ])
 
     class CustomDataset(Dataset):
@@ -39,15 +40,19 @@ def load_data(csv_file, data_dir, batch_size):
 
         def __getitem__(self, idx):
             img_path = self.images[idx]
-            image = Image.open(img_path).convert('RGB')
+            image = Image.open(img_path).convert('L')  # Open as grayscale
             if self.transform:
                 image = self.transform(image)
-            label = int(img_path.split(os.sep)[-1].split('_')[0])  # Assuming filename convention
+            label = 1 if 'True' in img_path else 0
             return image, label
 
     dataset = CustomDataset(data_dir, valid_images, transform)
     loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=4)
     return loader
+
+
+
+
 
 def setup_model(num_classes):
     """Setup the ResNet-18 model."""
