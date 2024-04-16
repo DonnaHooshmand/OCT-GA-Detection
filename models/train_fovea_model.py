@@ -14,44 +14,43 @@ def setup_logging():
     """Setup basic logging."""
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def load_data(csv_file, data_dir, batch_size, num_samples=None):
-    """Load data using a custom dataset generator with CSV filtering and optional sample limitation."""
-    # Load the CSV file to filter images
-    df = pd.read_csv(csv_file)
-    valid_images = set(df['scan_name'].values)
+class CustomDataset(Dataset):
+    """Custom Dataset class for loading images with labels from CSV file."""
+    def __init__(self, csv_file, data_dir, transform=None):
+        self.data_dir = data_dir
+        self.transform = transform
+        self.df = pd.read_csv(csv_file)  # Load the entire CSV
+        self.df['image_path'] = self.df.apply(lambda row: os.path.join(data_dir, row['scan_name']), axis=1)
+        self.df = self.df[self.df['image_path'].apply(os.path.exists)]  # Filter out non-existing files
 
+    def __len__(self):
+        return len(self.df)
+
+    def __getitem__(self, idx):
+        row = self.df.iloc[idx]
+        image = Image.open(row['image_path']).convert('L')  # Open as grayscale
+        if self.transform:
+            image = self.transform(image)
+        # Convert True/False label to 1/0
+        label = 1 if row['status'] == 'True' else 0
+        return image, label
+
+
+def load_data(csv_file, data_dir, batch_size, num_samples=None):
+    """Load data using the updated custom dataset generator with CSV filtering."""
     transform = Compose([
         Resize((224, 224)),
-        Grayscale(num_output_channels=1),  # Grayscale image with one channel
         ToTensor(),
         Normalize(mean=[0.485], std=[0.229]),  # Normalizing the single channel
         Lambda(lambda x: x.repeat(3, 1, 1))  # Repeating the single channel across to get 3 channels
     ])
 
-    class CustomDataset(Dataset):
-        """Custom Dataset class for loading images."""
-        def __init__(self, data_dir, valid_images, transform=None):
-            self.data_dir = data_dir
-            self.transform = transform
-            self.images = [os.path.join(dp, f) for dp, dn, filenames in os.walk(data_dir) for f in filenames if f.endswith('.jpg') and f in valid_images]
-
-        def __len__(self):
-            return len(self.images)
-
-        def __getitem__(self, idx):
-            img_path = self.images[idx]
-            image = Image.open(img_path).convert('L')  # Open as grayscale
-            if self.transform:
-                image = self.transform(image)
-            label = 1 if 'True' in img_path else 0
-            return image, label
-
-    dataset = CustomDataset(data_dir, valid_images, transform)
-    loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=4)
+    dataset = CustomDataset(csv_file, data_dir, transform)
+    if num_samples:
+        # If limiting the number of samples, adjust here
+        dataset = torch.utils.data.Subset(dataset, range(num_samples))
+    loader = DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=4)
     return loader
-
-
-
 
 
 def setup_model(num_classes):
