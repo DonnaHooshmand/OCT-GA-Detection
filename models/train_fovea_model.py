@@ -3,8 +3,7 @@ import sys
 import pandas as pd
 import torch
 import torch.nn as nn
-import torchvision
-import torchvision.transforms as transforms, Compose, Resize, Grayscale, ToTensor, Normalize, Lambda
+from torchvision.transforms import Compose, Resize, Grayscale, ToTensor, Normalize, Lambda
 from torchvision.models import resnet18
 from torch.utils.data import DataLoader, Dataset
 from PIL import Image
@@ -109,7 +108,7 @@ def main():
     trained_model = train(model, device, train_loader, epochs, lr)
 
     # Save the trained model
-    torch.save(trained_model.state_dict(), 'resnet18_model.pth')
+    torch.save(trained_model.state_dict(), 'models/resnet18_model_V1.pth')
 
 if __name__ == "__main__":
     main()
