@@ -1,84 +1,88 @@
-import os
 import torch
 import pandas as pd
-from PIL import Image
 from torch.utils.data import DataLoader, Dataset
-from torchvision.transforms import Compose, Resize, Grayscale, ToTensor, Normalize, Lambda
-from torchvision.models import resnet18
-import torch.nn as nn
+from torchvision.transforms import Compose, Resize, ToTensor, Normalize
+from PIL import Image
+import os
+from torchvision.models import resnet18, ResNet18_Weights
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
-# Device configuration
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+class RepeatChannelsTransform:
+    """Transform to repeat the single channel image to three channels."""
+    def __call__(self, img):
+        return img.repeat(3, 1, 1)
 
 class CustomDataset(Dataset):
-    """Dataset class for loading images."""
-    def __init__(self, annotations_file, img_dir, transform=None):
-        """
-        Args:
-            annotations_file (string): Path to the annotations CSV file.
-            img_dir (string): Directory with all the images.
-            transform (callable, optional): Optional transform to be applied on a sample.
-        """
-        self.img_labels = pd.read_csv(annotations_file)
-        self.img_dir = img_dir
+    """Custom Dataset class for loading images with labels from CSV file."""
+    def __init__(self, csv_file, data_dir, transform=None):
+        self.data_dir = data_dir
         self.transform = transform
+        self.df = pd.read_csv(csv_file)
+        self.df['image_path'] = self.df.apply(lambda row: os.path.join(data_dir, row['scan_name']), axis=1)
+        self.df = self.df[self.df['image_path'].apply(os.path.exists)]  # Filter out non-existing files
 
     def __len__(self):
-        return len(self.img_labels)
+        return len(self.df)
 
     def __getitem__(self, idx):
-        img_path = os.path.join(self.img_dir, self.img_labels.iloc[idx, 0])
-        image = Image.open(img_path).convert('L')
-        label = 1 if self.img_labels.iloc[idx, 1] == 'True' else 0
+        row = self.df.iloc[idx]
+        image = Image.open(row['image_path']).convert('L')
         if self.transform:
             image = self.transform(image)
+        label = 1 if row['status'] == 'True' else 0
         return image, label
 
-def load_model(model_path, num_classes):
-    model = resnet18(pretrained=False)
-    num_ftrs = model.fc.in_features
-    model.fc = nn.Linear(num_ftrs, num_classes)
-    model.load_state_dict(torch.load(model_path))
-    model = model.to(device)
-    model.eval()
-    return model
-
-def main():
-    # Transformations for the image
+def load_data(csv_file, data_dir, batch_size):
+    """Load data using the custom dataset generator with CSV filtering."""
     transform = Compose([
         Resize((224, 224)),
-        Grayscale(num_output_channels=1),
         ToTensor(),
-        Normalize(mean=[0.485], std=[0.229]),
-        Lambda(lambda x: x.repeat(3, 1, 1))  # Repeat grayscale image across 3 channels
+        Normalize(mean=[0.485], std=[0.229]),  # Normalizing the single channel
+        RepeatChannelsTransform()  # Repeating the single channel across to get 3 channels
     ])
+
+    dataset = CustomDataset(csv_file, data_dir, transform)
+    loader = DataLoader(dataset, batch_size=batch_size, shuffle=False, num_workers=4)
+    return loader
+
+def evaluate_model(model, device, test_loader):
+    model.eval()
+    predictions = []
+    targets = []
     
-     # Construct the path using the user ID from the environment to ensure it's dynamic and correct
-    user_id = os.getuid()
-    data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
-
-    # Data loaders
-    test_dataset = CustomDataset(annotations_file='data/test_labels.csv', 
-                                 img_dir= data_dir, 
-                                 transform=transform)
-    test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
-
-    # Load the trained model
-    model = load_model('models/resnet18_model.pth', num_classes=2)
-
-    # Evaluate the model
-    correct = 0
-    total = 0
     with torch.no_grad():
         for images, labels in test_loader:
             images, labels = images.to(device), labels.to(device)
             outputs = model(images)
             _, predicted = torch.max(outputs.data, 1)
-            total += labels.size(0)
-            correct += (predicted == labels).sum().item()
+            predictions.extend(predicted.cpu().numpy())
+            targets.extend(labels.cpu().numpy())
 
-    accuracy = 100 * correct / total
-    print(f'Accuracy of the model on the test images: {accuracy:.2f}%')
+    accuracy = accuracy_score(targets, predictions)
+    precision = precision_score(targets, predictions)
+    recall = recall_score(targets, predictions)
+    f1 = f1_score(targets, predictions)
+
+    print(f'Accuracy of the model on the test images: {accuracy * 100:.2f}%')
+    print(f'Precision: {precision:.2f}')
+    print(f'Recall: {recall:.2f}')
+    print(f'F1 Score: {f1:.2f}')
+
+def main():
+    data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
+    csv_file = './data/test_dataset.csv'
+    batch_size = 32
+    model_path = './models/resnet18_model_V1.pth'
+
+    test_loader = load_data(csv_file, data_dir, batch_size)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    model = resnet18(weights=None)  # Not loading pretrained weights
+    model.fc = torch.nn.Linear(model.fc.in_features, 2)  # Adjusting for 2 output classes
+    model.load_state_dict(torch.load(model_path))
+    model.to(device)
+
+    evaluate_model(model, device, test_loader)
 
 if __name__ == '__main__':
     main()
