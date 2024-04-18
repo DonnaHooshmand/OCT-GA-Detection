@@ -27,11 +27,11 @@ class CustomDataset(Dataset):
 
     def __getitem__(self, idx):
         row = self.df.iloc[idx]
-        image = Image.open(row['image_path']).convert('L')  # Open as grayscale
+        image = Image.open(row['image_path'])#.convert('L')  # Open as grayscale
         if self.transform:
             image = self.transform(image)
         # Convert True/False label to 1/0
-        label = 1 if row['status'] == 'True' else 0
+        label = 1 if row['status'] == True else 0
         return image, label
 
 
