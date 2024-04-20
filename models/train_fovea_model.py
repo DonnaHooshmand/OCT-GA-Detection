@@ -3,11 +3,14 @@ import sys
 import pandas as pd
 import torch
 import torch.nn as nn
-from torchvision.transforms import Compose, Resize, Grayscale, ToTensor, Normalize, Lambda
+from torchvision.transforms import Compose, Resize, Grayscale, ToTensor, Normalize, Lambda, CenterCrop
 from torchvision.models import resnet18
 from torch.utils.data import DataLoader, Dataset
-from PIL import Image
+from PIL import Image, ImageOps, ImageFilter
 import logging
+from torchvision.transforms.functional import to_pil_image, to_tensor, center_crop, gaussian_blur
+import cv2
+import numpy as np
 
 def setup_logging():
     """Setup basic logging."""
@@ -34,12 +37,41 @@ class CustomDataset(Dataset):
         label = 1 if row['status'] == True else 0
         return image, label
 
+def apply_clahe(image):
+    image_np = np.array(image)
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    image_clahe = clahe.apply(image_np)
+    image_pil = Image.fromarray(image_clahe)
+    return image_pil
+
+def high_pass_filter(input_tensor):
+    array = input_tensor.numpy().squeeze(0)
+    kernel = np.array([[-1, -1, -1], [-1, 8, -1], [-1, -1, -1]])
+    high_pass_image = cv2.filter2D(array, -1, kernel)
+    return torch.from_numpy(high_pass_image).unsqueeze(0).float()
+
+def sobel_operator(x):
+    x = to_pil_image(x)
+    x = x.filter(ImageFilter.FIND_EDGES)
+    return to_tensor(x)
+
+def denoise_image(img):
+    return gaussian_blur(img, kernel_size=[5, 5])
+    
+def custom_center_crop(img):
+    return center_crop(img, [1200, 500])
 
 def load_data(csv_file, data_dir, batch_size, num_samples=None):
     """Load data using the updated custom dataset generator with CSV filtering."""
+
     transform = Compose([
+        Lambda(custom_center_crop),
+        # Lambda(denoise_image),
         Resize((224, 224)),
+        Lambda(apply_clahe),
         ToTensor(),
+        # Lambda(sobel_operator),
+        # Lambda(high_pass_filter),
         Normalize(mean=[0.485], std=[0.229]),  # Normalizing the single channel
         Lambda(lambda x: x.repeat(3, 1, 1))  # Repeating the single channel across to get 3 channels
     ])

@@ -1,0 +1,9 @@
+scan_name,scan_number,folder_name,patient_id,eye_side,status,image_path
+064_OD_7_GA_6x6_SSOCT_2_244.jpg,244,064_OD_7_GA_6x6_SSOCT_2,64,right,True,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/064_OD_7_GA_6x6_SSOCT_2_244.jpg
+345_OD_2_GA_6x6_SSOCT_1_204.jpg,204,345_OD_2_GA_6x6_SSOCT_1,345,right,True,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/345_OD_2_GA_6x6_SSOCT_1_204.jpg
+064_OS_1_GA_6x6_SSOCT_1_493.jpg,493,064_OS_1_GA_6x6_SSOCT_1,64,left,False,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/064_OS_1_GA_6x6_SSOCT_1_493.jpg
+064_OS_2_GA_6x6_SSOCT_1_188.jpg,188,064_OS_2_GA_6x6_SSOCT_1,64,left,True,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/064_OS_2_GA_6x6_SSOCT_1_188.jpg
+064_OD_9_GA_6x6_SSOCT_1_186.jpg,186,064_OD_9_GA_6x6_SSOCT_1,64,right,True,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/064_OD_9_GA_6x6_SSOCT_1_186.jpg
+345_OD_2_GA_6x6_SSOCT_1_368.jpg,368,345_OD_2_GA_6x6_SSOCT_1,345,right,False,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/345_OD_2_GA_6x6_SSOCT_1_368.jpg
+064_OD_8_GA_6x6_SSOCT_1_65.jpg,65,064_OD_8_GA_6x6_SSOCT_1,64,right,False,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/064_OD_8_GA_6x6_SSOCT_1_65.jpg
+326_OD_3_GA_6x6_SSOCT_1_339.jpg,339,326_OD_3_GA_6x6_SSOCT_1,326,right,False,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/326_OD_3_GA_6x6_SSOCT_1_339.jpg
