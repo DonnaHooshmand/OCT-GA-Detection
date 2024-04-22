@@ -126,9 +126,9 @@ def main():
     user_id = os.getuid()
     data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
 
-    epochs = 10
+    epochs = 100
     batch_size = 32
-    lr = 0.001
+    lr = 0.00005
     num_classes = 2
     
     if not os.path.exists(data_dir):
@@ -140,7 +140,7 @@ def main():
     trained_model = train(model, device, train_loader, epochs, lr)
 
     # Save the trained model
-    torch.save(trained_model.state_dict(), 'models/resnet18_model_V1.pth')
+    torch.save(trained_model.state_dict(), 'models/resnet18_model_V3.pth')
 
 if __name__ == "__main__":
     main()
