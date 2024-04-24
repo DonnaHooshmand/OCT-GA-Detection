@@ -126,9 +126,10 @@ def main():
     user_id = os.getuid()
     data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
 
+
     epochs = 50
     batch_size = 32
-    lr = 0.001
+    lr = 0.00005
     num_classes = 2
     
     if not os.path.exists(data_dir):
