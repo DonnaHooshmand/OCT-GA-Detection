@@ -20,6 +20,8 @@ def main():
     
     data_path = './FoveaProgression/data/sample_data.csv'
 
+    # data_path = './FoveaProgression/data/fovea_progression_dataset_excluding_unknowns.csv'
+
     # Construct the path using the user ID from the environment to ensure it's dynamic and correct
     user_id = os.getuid()
     # data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
@@ -35,7 +37,9 @@ def main():
     # generate data loader for training, validation and test sets
     train_loader, val_loader, test_loader = data_loader(data_path)
 
-    model = CNNLSTM(num_classes=7)
+    # model = CNNLSTMTest(num_classes=7)
+    model = CNNLSTMSeq2Seq(num_classes=7)
+
     print(model)
 
     # frame_height = 128
@@ -49,7 +53,7 @@ def main():
         model.cuda()  # Move model to GPU if available
 
     criterion = nn.CrossEntropyLoss() # Loss function
-    optimizer = optim.Adam(model.parameters(), lr=0.001) # Optimizer
+    optimizer = optim.Adam(model.parameters(), lr=0.00005) # Optimizer
     num_epochs = 10 # training epochs
 
     train_model(model, train_loader, val_loader, criterion, optimizer, num_epochs)
