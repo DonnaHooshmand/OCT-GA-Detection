@@ -11,7 +11,7 @@ from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
 
 class EyeScanDataset(Dataset):
-    def __init__(self, images, labels, transform=None):
+    def __init__(self, images, labels, folder_name, transform=None):
         """
         Initialize the dataset.
         :param images: List of numpy arrays, each representing a sequence of images.
@@ -20,6 +20,7 @@ class EyeScanDataset(Dataset):
         """
         self.images = images
         self.labels = labels
+        self.scan_id = folder_name
         self.transform = transform
 
     def __len__(self):
@@ -36,6 +37,8 @@ class EyeScanDataset(Dataset):
         """
         image_sequence = self.images[idx]
         label_sequence = self.labels[idx]
+        scan_id = self.scan_id[idx]
+
         
         # Process each image in the sequence
         if self.transform:
@@ -47,7 +50,7 @@ class EyeScanDataset(Dataset):
         image_sequence = torch.stack(image_sequence)
         label_sequence = torch.tensor(label_sequence, dtype=torch.long)
         
-        return image_sequence, label_sequence
+        return image_sequence, label_sequence, scan_id
 
 
 def load_image(img_path):
@@ -76,6 +79,8 @@ def load_images_and_labels(data_dir,path_data):
     
     X = [] # image sequence
     Y = [] # labels
+    scan_id = []  # appointment scan folder names
+
     
     appointments = df['folder_name'].unique()
 
@@ -95,8 +100,10 @@ def load_images_and_labels(data_dir,path_data):
             if len(images) == 500:
                 X.append(np.array(images))
                 Y.append(np.array(labels))
+                scan_id.append(appointment)
+
     
-    return np.array(X), np.array(Y)
+    return np.array(X), np.array(Y), scan_id
 
 def visualize_data(data_loader):
     # Fetch the first batch from the DataLoader
@@ -122,34 +129,33 @@ def check_shapes(data_loader):
     print("Shape of labels batch:", labels.shape)
 
 def data_loader(data_dir,path_data, batch_size=16):
-    # Load the data
-    X, Y = load_images_and_labels(data_dir,path_data)
+
+    transform = transforms.Compose([
+        transforms.Normalize(mean=[0.485], std=[0.229])
+    ])
+
+    X, Y, scan_id = load_images_and_labels(data_dir,path_data)
 
     # Convert the data to tensors
     X = [np.stack(sequence) for sequence in X]  # Stack images in each sequence
     Y = [np.array(sequence) for sequence in Y]  # Convert labels to arrays
 
-    # Split the data into train, validation, and test sets (60/20/20 split)
-    X_train, X_temp, Y_train, Y_temp = train_test_split(X, Y, test_size=0.4, random_state=42)
-    X_val, X_test, Y_val, Y_test = train_test_split(X_temp, Y_temp, test_size=0.5, random_state=42)
+    # X_train, X_temp, Y_train, Y_temp = train_test_split(X, Y, test_size=0.4, random_state=42)
+    # X_val, X_test, Y_val, Y_test = train_test_split(X_temp, Y_temp, test_size=0.5, random_state=42)
 
-    # Define any additional transformations
-    transform = transforms.Compose([
-        transforms.Normalize(mean=[0.485], std=[0.229])
-    ])
+    dataset = EyeScanDataset(X, Y, scan_id, transform=transform) # Create dataset objects
+    # train_dataset = EyeScanDataset(X_train, Y_train, transform=transform)
+    # val_dataset = EyeScanDataset(X_val, Y_val, transform=transform)
+    # test_dataset = EyeScanDataset(X_test, Y_test, transform=transform)
 
-    # Create dataset objects
-    train_dataset = EyeScanDataset(X_train, Y_train, transform=transform)
-    val_dataset = EyeScanDataset(X_val, Y_val, transform=transform)
-    test_dataset = EyeScanDataset(X_test, Y_test, transform=transform)
+    data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)# Create DataLoaders
+    # train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    # val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
+    # test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-    # Create DataLoaders
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
-    test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+    # visualize_data(data_loader)
+    # check_shapes(data_loader)
 
-    # visualize_data(train_loader)
-    # check_shapes(train_loader)
-    
-    return train_loader, val_loader, test_loader
+    return data_loader
+    # return train_loader, val_loader, test_loader
     
