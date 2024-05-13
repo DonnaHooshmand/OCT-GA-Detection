@@ -1,16 +1,14 @@
 import pandas as pd
 import numpy as np
+import os
 import cv2
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from concurrent.futures import ThreadPoolExecutor
 
 import torch
-import torch.nn as nn
 from torchvision import transforms
-from torchvision.transforms import Compose, Resize, Grayscale, ToTensor, Normalize, Lambda, CenterCrop
 from torch.utils.data import DataLoader, Dataset
-from torchvision.transforms.functional import to_pil_image, to_tensor, center_crop, gaussian_blur
 
 class EyeScanDataset(Dataset):
     def __init__(self, images, labels, transform=None):
@@ -64,7 +62,7 @@ def load_image(img_path):
         return img / 255.0
     return None
 
-def load_images_and_labels(path_data):
+def load_images_and_labels(data_dir,path_data):
     """
     Load and preprocess all images and labels from the dataset.
     :param path_data: Path to the CSV file containing dataset metadata.
@@ -72,6 +70,8 @@ def load_images_and_labels(path_data):
     """
     
     df = pd.read_csv(path_data)
+    df['image_path'] = df.apply(lambda row: os.path.join(data_dir, row['scan_name']), axis=1)
+    df = df[df['image_path'].apply(os.path.exists)]
     df.sort_values(by=['patient_id','folder_name', 'scan_number'], inplace=True)
     
     X = [] # image sequence
@@ -121,9 +121,9 @@ def check_shapes(data_loader):
     print("Shape of images batch:", images.shape)
     print("Shape of labels batch:", labels.shape)
 
-def data_loader(path_data, batch_size=16):
+def data_loader(data_dir,path_data, batch_size=16):
     # Load the data
-    X, Y = load_images_and_labels(path_data)
+    X, Y = load_images_and_labels(data_dir,path_data)
 
     # Convert the data to tensors
     X = [np.stack(sequence) for sequence in X]  # Stack images in each sequence

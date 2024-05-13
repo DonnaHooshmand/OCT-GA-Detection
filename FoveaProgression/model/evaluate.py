@@ -1,8 +1,6 @@
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 import matplotlib.pyplot as plt
 import torch
-import torch.nn as nn
-import torch.optim as optim
 import csv
 
 

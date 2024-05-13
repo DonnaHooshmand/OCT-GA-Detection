@@ -1,6 +1,4 @@
 import torch
-import torch.nn as nn
-import torch.optim as optim
 
 def train_model(model, train_loader, val_loader, criterion, optimizer, num_epochs):
     for epoch in range(num_epochs):
