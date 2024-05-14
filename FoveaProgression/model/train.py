@@ -1,5 +1,6 @@
 import torch
 from evaluate import*
+from log import*
 
 def train_model(model, train_loader, val_loader, criterion, optimizer, num_epochs, best_model_path, experiment_dir):
     best_val_loss = float('inf')
@@ -88,3 +89,6 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, num_epoch
 
     # Plot and save loss and accuracy curves
     plot_curves(train_losses, val_losses, train_accuracies, val_accuracies, experiment_dir)
+
+    # Save training and validation losses and accuracies to a file
+    save_metrics(train_losses, val_losses, train_accuracies, val_accuracies, experiment_dir)

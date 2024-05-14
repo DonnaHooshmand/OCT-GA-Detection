@@ -4,6 +4,14 @@ import sys
 import logging
 import subprocess
 
+
+def save_metrics(train_losses, val_losses, train_accuracies, val_accuracies, experiment_dir):
+    metrics_path = os.path.join(experiment_dir, 'loss_accuracy_curves', 'metrics.txt')
+    with open(metrics_path, 'w') as f:
+        f.write('Epoch\tTrain Loss\tValidation Loss\tTrain Accuracy\tValidation Accuracy\n')
+        for epoch, (train_loss, val_loss, train_acc, val_acc) in enumerate(zip(train_losses, val_losses, train_accuracies, val_accuracies), start=1):
+            f.write(f'{epoch}\t{train_loss:.4f}\t{val_loss:.4f}\t{train_acc:.4f}\t{val_acc:.4f}\n')
+
 def git_commit_and_push_changes(base_branch, new_branch, commit_message):
     """Commit all changes to git with the provided commit message and push to a new branch."""
     try:
