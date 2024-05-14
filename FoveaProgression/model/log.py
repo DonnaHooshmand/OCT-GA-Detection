@@ -18,7 +18,7 @@ def git_commit_and_push_changes(base_branch, new_branch, commit_message):
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
         subprocess.run(["git", "push", "origin", new_branch], check=True)
     except subprocess.CalledProcessError as e:
-        logging.error(f"Error committing changes to git: {e}")
+        logging.error(f"Error committing and pushing changes to git: {e}")
         sys.exit(1)
 
 def create_experiment_folders(base_dir):

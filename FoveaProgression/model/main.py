@@ -63,9 +63,9 @@ def main():
     evaluate_and_save_results(model, test_loader, experiment_dir)
 
     # Git commit and push changes
-    base_branch = "fovea_progression"
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    new_branch = f"fovea_progression/{timestamp}"
+    base_branch = "training"
+    timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
+    new_branch = f"training-/{timestamp}"
     commit_message = f"Training completed on {timestamp}"
     git_commit_and_push_changes(base_branch, new_branch, commit_message)
     
