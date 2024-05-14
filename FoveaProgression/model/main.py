@@ -17,7 +17,30 @@ def setup_logging():
 
 def main():
 
-    data_path = './FoveaProgression/data/model/'
+    experiment_dir = create_experiment_folders('./FoveaProgression/experiments')
+    
+    num_classes=3 #number of classes
+    # model = CNNLSTMTest(num_classes)
+    model = CNNLSTMSeq2Seq(num_classes)
+    
+    # model parameters
+    lr = 0.00005 #learning rate
+    num_epochs = 1 # training epochs
+    batch_size = 16 #bath size
+    criterion = nn.CrossEntropyLoss() # Loss function
+    optimizer = optim.Adam(model.parameters(), lr) # Optimizer
+    
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+        model.to(device)
+        print("Model is using GPU:", torch.cuda.get_device_name(device))
+    else:
+        device = torch.device("cpu")
+        print("Model is using CPU")
+    print(model)
+    save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
+    
+    data_path = './FoveaProgression/data/sample/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
@@ -31,32 +54,14 @@ def main():
         sys.exit(1)
     else:
         print("\nDirectory found, loading data ...")
-
-    experiment_dir = create_experiment_folders('./FoveaProgression/experiments')
-
-    # model = CNNLSTMTest(num_classes=7)
-    model = CNNLSTMSeq2Seq(num_classes=7)
-    if torch.cuda.is_available():
-        device = torch.device("cuda")
-        model.to(device)
-        print("Model is using GPU:", torch.cuda.get_device_name(device))
-    else:
-        device = torch.device("cpu")
-        print("Model is using CPU")
-    print(model)
-    save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
-
-    # model parameters
-    lr = 0.00005 #learning rate
-    num_epochs = 1 # training epochs
-    batch_size = 16 #bath size
-    criterion = nn.CrossEntropyLoss() # Loss function
-    optimizer = optim.Adam(model.parameters(), lr) # Optimizer
     
     # train_loader, val_loader, test_loader = data_loader(data_dir,data_path,batch_size) 
     train_loader = data_loader(data_dir,train_path,batch_size)
+    print("\nTrain Loader complete")
     val_loader = data_loader(data_dir,val_path,batch_size)
+    print("\nValidation Loader complete")
     test_loader = data_loader(data_dir,test_path,batch_size)
+    print("\nTest Loader complete")
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
 
     best_model_path = os.path.join(experiment_dir, 'best_model', 'best_model.pth')
@@ -66,12 +71,12 @@ def main():
 
     evaluate_and_save_results(model, test_loader, experiment_dir)
 
-    # Git commit and push changes
-    base_branch = "training"
-    timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
-    new_branch = f"training-/{timestamp}"
-    commit_message = f"Training completed on {timestamp}"
-    git_commit_and_push_changes(base_branch, new_branch, commit_message)
+    # # Git commit and push changes
+    # base_branch = "training"
+    # timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
+    # new_branch = f"training-/{timestamp}"
+    # commit_message = f"Training completed on {timestamp}"
+    # git_commit_and_push_changes(base_branch, new_branch, commit_message)
     
 if __name__ == "__main__":
     main()
