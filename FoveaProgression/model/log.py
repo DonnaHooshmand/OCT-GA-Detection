@@ -1,5 +1,17 @@
 from datetime import datetime
 import os
+import sys
+import logging
+import subprocess
+
+def git_commit_changes(commit_message):
+    """Commit all changes to git with the provided commit message."""
+    try:
+        subprocess.run(["git", "add", "."], check=True)
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Error committing changes to git: {e}")
+        sys.exit(1)
 
 def create_experiment_folders(base_dir):
     """Create directories for the experiment logs."""

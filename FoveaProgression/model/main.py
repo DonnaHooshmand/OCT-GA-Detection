@@ -44,7 +44,7 @@ def main():
 
     # model parameters
     lr = 0.00005 #learning rate
-    num_epochs = 5 # training epochs
+    num_epochs = 1 # training epochs
     batch_size = 16 #bath size
     criterion = nn.CrossEntropyLoss() # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
@@ -61,6 +61,10 @@ def main():
     torch.save(model.state_dict(), os.path.join(experiment_dir, 'model_weights', 'final_model_weights.pth'))
 
     evaluate_and_save_results(model, test_loader, experiment_dir)
+
+    # Git commit changes
+    commit_message = f"Training completed on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+    git_commit_changes(commit_message)
 
     # visualize_predictions(test_loader, model)
     # Visualize predictions on the test set with filtered labels
