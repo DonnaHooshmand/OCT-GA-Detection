@@ -1,0 +1,8 @@
+Training Set Size: 1
+Training Appointments: ['047_OS_1_GA_6x6_SSOCT_1']
+
+Validation Set Size: 1
+Validation Appointments: ['321_OD_1_GA_6x6_SSOCT_1']
+
+Test Set Size: 1
+Test Appointments: ['064_OD_1_GA_6x6_SSOCT_2']

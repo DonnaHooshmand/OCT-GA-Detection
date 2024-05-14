@@ -4,13 +4,21 @@ import sys
 import logging
 import subprocess
 
-def git_commit_changes(commit_message):
-    """Commit all changes to git with the provided commit message."""
+def git_commit_and_push_changes(branch_name, commit_message):
+    """Commit all changes to git with the provided commit message and push to a new branch."""
     try:
+        # Ensure we are on the "training" branch
+        subprocess.run(["git", "checkout", "fovea-progression"], check=True)
+        
+        # Create and switch to the new branch
+        subprocess.run(["git", "checkout", "-b", branch_name], check=True)
+        
+        # Add, commit, and push changes
         subprocess.run(["git", "add", "."], check=True)
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
+        subprocess.run(["git", "push", "origin", branch_name], check=True)
     except subprocess.CalledProcessError as e:
-        logging.error(f"Error committing changes to git: {e}")
+        logging.error(f"Error committing and pushing changes to git: {e}")
         sys.exit(1)
 
 def create_experiment_folders(base_dir):

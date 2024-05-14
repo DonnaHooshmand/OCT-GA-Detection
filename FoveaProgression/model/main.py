@@ -62,14 +62,15 @@ def main():
 
     evaluate_and_save_results(model, test_loader, experiment_dir)
 
-    # Git commit changes
-    commit_message = f"Training completed on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    git_commit_changes(commit_message)
+    # Git commit and push changes
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    branch_name = f"training_{timestamp}"
+    commit_message = f"Training completed on {timestamp}"
+    git_commit_and_push_changes(branch_name, commit_message)
 
     # visualize_predictions(test_loader, model)
     # Visualize predictions on the test set with filtered labels
     # visualize_filtered_predictions(test_loader, model)
-
 
 if __name__ == "__main__":
     main()
