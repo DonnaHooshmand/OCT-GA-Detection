@@ -4,11 +4,19 @@ import sys
 import logging
 import subprocess
 
-def git_commit_changes(commit_message):
-    """Commit all changes to git with the provided commit message."""
+def git_commit_and_push_changes(base_branch, new_branch, commit_message):
+    """Commit all changes to git with the provided commit message and push to a new branch."""
     try:
+        # Ensure we are on the base branch
+        subprocess.run(["git", "checkout", base_branch], check=True)
+        
+        # Create and switch to the new branch
+        subprocess.run(["git", "checkout", "-b", new_branch], check=True)
+        
+        # Add, commit, and push changes
         subprocess.run(["git", "add", "."], check=True)
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
+        subprocess.run(["git", "push", "origin", new_branch], check=True)
     except subprocess.CalledProcessError as e:
         logging.error(f"Error committing changes to git: {e}")
         sys.exit(1)

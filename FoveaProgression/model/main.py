@@ -62,10 +62,13 @@ def main():
 
     evaluate_and_save_results(model, test_loader, experiment_dir)
 
-    # Git commit changes
-    commit_message = f"Training completed on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    git_commit_changes(commit_message)
-
+    # Git commit and push changes
+    base_branch = "fovea_progression"
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    new_branch = f"fovea_progression/{timestamp}"
+    commit_message = f"Training completed on {timestamp}"
+    git_commit_and_push_changes(base_branch, new_branch, commit_message)
+    
     # visualize_predictions(test_loader, model)
     # Visualize predictions on the test set with filtered labels
     # visualize_filtered_predictions(test_loader, model)
