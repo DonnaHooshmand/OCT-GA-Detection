@@ -17,14 +17,14 @@ def setup_logging():
 
 def main():
 
-    data_path = './FoveaProgression/data/sample/'
+    data_path = './FoveaProgression/data/model/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
     
-    data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
-    # user_id = os.getuid()
-    # data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
+    # data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
+    user_id = os.getuid()
+    data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
 
     if not os.path.exists(data_dir):
         logging.error("\nData directory does not exist.")
@@ -37,8 +37,12 @@ def main():
     # model = CNNLSTMTest(num_classes=7)
     model = CNNLSTMSeq2Seq(num_classes=7)
     if torch.cuda.is_available():
-        model = model.cuda()  # Move model to GPU if available
-    print("\nModel Device:", next(model.parameters()).device)
+        device = torch.device("cuda")
+        model.to(device)
+        print("Model is using GPU:", torch.cuda.get_device_name(device))
+    else:
+        device = torch.device("cpu")
+        print("Model is using CPU")
     print(model)
     save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
 
@@ -69,11 +73,6 @@ def main():
     commit_message = f"Training completed on {timestamp}"
     git_commit_and_push_changes(base_branch, new_branch, commit_message)
     
-    # visualize_predictions(test_loader, model)
-    # Visualize predictions on the test set with filtered labels
-    # visualize_filtered_predictions(test_loader, model)
-
-
 if __name__ == "__main__":
     main()
     
