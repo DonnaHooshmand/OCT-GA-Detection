@@ -1,6 +1,8 @@
 import os
 import sys
-
+import torch
+import torch.nn as nn
+import torch.optim as optim
 import logging
 
 from dataloader import *
@@ -15,11 +17,10 @@ def setup_logging():
 
 def main():
 
-    # data_path = './FoveaProgression/data/sample_data.csv'
-    # data_path = './FoveaProgression/data/fovea_progression_dataset_excluding_unknowns.csv'
-    train_path = './FoveaProgression/data/sample/sample_train.csv'
-    val_path = './FoveaProgression/data/sample/sample_val.csv'
-    test_path = './FoveaProgression/data/sample/sample_test.csv'
+    data_path = './FoveaProgression/data/sample/'
+    train_path = data_path + 'train.csv'
+    val_path = data_path + 'val.csv'
+    test_path = data_path + 'test.csv'
     
     data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
     # user_id = os.getuid()

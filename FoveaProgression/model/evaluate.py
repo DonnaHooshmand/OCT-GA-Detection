@@ -101,7 +101,7 @@ def visualize_predictions(data_loader, model, num_sequences=1):
         plt.axis('off')
     plt.show()
 
-def plot_curves(train_losses, val_losses, val_accuracies, experiment_dir):
+def plot_curves(train_losses, val_losses, train_accuracies, val_accuracies, experiment_dir):
     plt.figure()
     plt.plot(train_losses, label='Train Loss')
     plt.plot(val_losses, label='Validation Loss')
@@ -111,6 +111,7 @@ def plot_curves(train_losses, val_losses, val_accuracies, experiment_dir):
     plt.savefig(os.path.join(experiment_dir, 'loss_accuracy_curves', 'loss_curve.png'))
 
     plt.figure()
+    plt.plot(train_accuracies, label='Train Accuracy')
     plt.plot(val_accuracies, label='Validation Accuracy')
     plt.xlabel('Epoch')
     plt.ylabel('Accuracy')

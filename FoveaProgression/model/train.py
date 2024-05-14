@@ -5,11 +5,14 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, num_epoch
     best_val_loss = float('inf')
     train_losses = []
     val_losses = []
+    train_accuracies = []
     val_accuracies = []
 
     for epoch in range(num_epochs):
         model.train()  # Set model to training mode
         train_loss = 0.0
+        correct_train = 0
+        total_train = 0
 
         for images, labels, _ in train_loader:
             if torch.cuda.is_available():
@@ -32,16 +35,24 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, num_epoch
             optimizer.step()
             
             train_loss += loss.item() * images.size(0)
-        
-        # Calculate average loss over an epoch
+
+            # Calculate training accuracy
+            _, predicted = torch.max(outputs, 1)
+            total_train += labels.size(0)
+            correct_train += (predicted == labels).sum().item()
+
+        # Calculate average loss and accuracy over an epoch
         train_loss = train_loss / len(train_loader.dataset)
         train_losses.append(train_loss)
+
+        train_accuracy = correct_train / total_train
+        train_accuracies.append(train_accuracy)
 
         # Validate the model
         model.eval()  # Set model to evaluate mode
         val_loss = 0.0
-        correct = 0
-        total = 0
+        correct_val = 0
+        total_val = 0
         
         with torch.no_grad():
             for images, labels, _ in val_loader:
@@ -57,22 +68,23 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, num_epoch
                 loss = criterion(outputs, labels)
                 val_loss += loss.item() * images.size(0)
                 
-                # Calculate accuracy
+                # Calculate validation accuracy
                 _, predicted = torch.max(outputs, 1)
-                total += labels.size(0)
-                correct += (predicted == labels).sum().item()
+                total_val += labels.size(0)
+                correct_val += (predicted == labels).sum().item()
         
         val_loss = val_loss / len(val_loader.dataset)
         val_losses.append(val_loss)
-        val_accuracy = correct / total
+        
+        val_accuracy = correct_val / total_val
         val_accuracies.append(val_accuracy)
 
-        print(f'Epoch {epoch+1}/{num_epochs}, Train Loss: {train_loss:.4f}, Validation Loss: {val_loss:.4f}, Validation Accuracy: {val_accuracy:.4f}')
+        print(f'Epoch {epoch+1}/{num_epochs}, Train Loss: {train_loss:.4f}, Validation Loss: {val_loss:.4f}, Train Accuracy: {train_accuracy:.4f}, Validation Accuracy: {val_accuracy:.4f}')
 
-        # Save the best model
+        # Save the best model and commit changes to git
         if val_loss < best_val_loss:
             best_val_loss = val_loss
             torch.save(model.state_dict(), best_model_path)
 
     # Plot and save loss and accuracy curves
-    plot_curves(train_losses, val_losses, val_accuracies, experiment_dir)
+    plot_curves(train_losses, val_losses, train_accuracies, val_accuracies, experiment_dir)

@@ -3,9 +3,7 @@ import numpy as np
 import os
 import cv2
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
 from concurrent.futures import ThreadPoolExecutor
-
 import torch
 from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
