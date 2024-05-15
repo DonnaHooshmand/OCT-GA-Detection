@@ -5,7 +5,7 @@ from torchvision.transforms import Compose, Resize, ToTensor, Normalize
 from PIL import Image
 import os
 from torchvision.models import resnet18, ResNet18_Weights
-from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, confusion_matrix
 
 class RepeatChannelsTransform:
     """Transform to repeat the single channel image to three channels."""
@@ -29,7 +29,7 @@ class CustomDataset(Dataset):
         image = Image.open(row['image_path']).convert('L')
         if self.transform:
             image = self.transform(image)
-        label = 1 if row['status'] == 'True' else 0
+        label = 1 if row['status'] == True else 0
         return image, label
 
 def load_data(csv_file, data_dir, batch_size):
@@ -62,17 +62,20 @@ def evaluate_model(model, device, test_loader):
     precision = precision_score(targets, predictions)
     recall = recall_score(targets, predictions)
     f1 = f1_score(targets, predictions)
+    cmatrix = confusion_matrix(targets, predictions)
 
     print(f'Accuracy of the model on the test images: {accuracy * 100:.2f}%')
     print(f'Precision: {precision:.2f}')
     print(f'Recall: {recall:.2f}')
     print(f'F1 Score: {f1:.2f}')
+    print(f'Confusion Matrix: ')
+    print(cmatrix)
 
 def main():
     data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
     csv_file = './data/test_dataset.csv'
     batch_size = 32
-    model_path = './models/resnet18_model_V1.pth'
+    model_path = './models/resnet18_model_V4.pth'
 
     test_loader = load_data(csv_file, data_dir, batch_size)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
