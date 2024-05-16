@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import torch
 import csv
 import os
-import seaborn as sns
+import numpy as np
 
 
 def evaluate_and_save_results(model, test_loader, experiment_dir):
@@ -121,8 +121,21 @@ def plot_curves(train_losses, val_losses, train_accuracies, val_accuracies, expe
 def plot_confusion_matrix(true_labels, pred_labels, output_path):
     cm = confusion_matrix(true_labels, pred_labels)
     plt.figure(figsize=(10, 7))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
-    plt.xlabel('Predicted')
-    plt.ylabel('True')
+    plt.imshow(cm, interpolation='nearest', cmap='Blues')
+    plt.title('Confusion Matrix')
+    plt.colorbar()
+
+    tick_marks = np.arange(len(set(true_labels)))
+    plt.xticks(tick_marks, tick_marks)
+    plt.yticks(tick_marks, tick_marks)
+
+    thresh = cm.max() / 2.
+    for i, j in np.ndindex(cm.shape):
+        plt.text(j, i, format(cm[i, j], 'd'), ha="center", va="center",
+                 color="white" if cm[i, j] > thresh else "black")
+
+    plt.ylabel('True label')
+    plt.xlabel('Predicted label')
+    plt.tight_layout()
     plt.savefig(output_path)
     plt.close()
