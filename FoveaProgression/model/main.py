@@ -26,7 +26,7 @@ def main():
     # model parameters
     lr = 0.00005 #learning rate
     num_epochs = 1 # training epochs
-    batch_size = 16 #bath size
+    batch_size = 8 #bath size
     criterion = nn.CrossEntropyLoss() # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
     
