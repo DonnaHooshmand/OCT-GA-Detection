@@ -43,7 +43,7 @@ class EyeScanDataset(Dataset):
             image_sequence = [self.transform(torch.from_numpy(img).float().unsqueeze(0)) for img in image_sequence]
         else:
             image_sequence = [torch.from_numpy(img).float().unsqueeze(0) for img in image_sequence]
-        
+
         # Convert to a single tensor
         image_sequence = torch.stack(image_sequence)
         label_sequence = torch.tensor(label_sequence, dtype=torch.long)
@@ -105,29 +105,47 @@ def load_images_and_labels(data_dir,path_data):
 
 def visualize_data(data_loader):
     # Fetch the first batch from the DataLoader
-    images, labels = next(iter(data_loader))
+    images, labels, _ = next(iter(data_loader))
     
-    # Visualize the first few images from the first sequence in the batch
-    sequence_images, sequence_labels = images[0], labels[0]
+    # Denormalize images
+    images = images * 0.229 + 0.485
     
-    plt.figure(figsize=(15, 5))
-    for i in range(min(len(sequence_images), 5)):  # Show the first 5 images of the sequence
-        plt.subplot(1, 5, i + 1)
-        # Convert image tensor to numpy for visualization
-        img = sequence_images[i].squeeze().numpy()
-        plt.imshow(img, cmap='gray')
-        plt.title(f'Label: {sequence_labels[i].item()}')
-        plt.axis('off')
-    plt.show()
+    # Iterate over the batch and find images of class 2
+    class_2_images = []
+    class_2_labels = []
+    
+    for i in range(images.shape[0]):
+        for j in range(images.shape[1]):
+            if labels[i][j] == 2:
+                class_2_images.append(images[i][j])
+                class_2_labels.append(labels[i][j])
+                if len(class_2_images) >= 5:  # Limit to the first 5 images
+                    break
+        if len(class_2_images) >= 5:
+            break
+    
+    if class_2_images:
+        plt.figure(figsize=(15, 5))
+        for i in range(len(class_2_images)):  # Show the first 5 images of class 2
+            plt.subplot(1, 5, i + 1)
+            # Convert image tensor to numpy for visualization
+            img = class_2_images[i].squeeze().numpy()
+            plt.imshow(img, cmap='gray')
+            plt.title(f'Label: {class_2_labels[i].item()}')
+            plt.axis('off')
+        plt.show()
+    else:
+        print("No images of class 2 found in the batch.")
 
 def check_shapes(data_loader):
     # Get the first batch from the DataLoader
-    images, labels = next(iter(data_loader))
+    images, labels, _ = next(iter(data_loader))
     print("Shape of images batch:", images.shape)
     print("Shape of labels batch:", labels.shape)
 
 def data_loader(data_dir,path_data, batch_size=16):
 
+    # Define the transformations
     transform = transforms.Compose([
         transforms.Normalize(mean=[0.485], std=[0.229])
     ])
@@ -138,22 +156,11 @@ def data_loader(data_dir,path_data, batch_size=16):
     X = [np.stack(sequence) for sequence in X]  # Stack images in each sequence
     Y = [np.array(sequence) for sequence in Y]  # Convert labels to arrays
 
-    # X_train, X_temp, Y_train, Y_temp = train_test_split(X, Y, test_size=0.4, random_state=42)
-    # X_val, X_test, Y_val, Y_test = train_test_split(X_temp, Y_temp, test_size=0.5, random_state=42)
-
     dataset = EyeScanDataset(X, Y, scan_id, transform=transform) # Create dataset objects
-    # train_dataset = EyeScanDataset(X_train, Y_train, transform=transform)
-    # val_dataset = EyeScanDataset(X_val, Y_val, transform=transform)
-    # test_dataset = EyeScanDataset(X_test, Y_test, transform=transform)
-
+   
     data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)# Create DataLoaders
-    # train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-    # val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
-    # test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
     # visualize_data(data_loader)
     # check_shapes(data_loader)
 
-    return data_loader
-    # return train_loader, val_loader, test_loader
-    
+    return data_loader    
