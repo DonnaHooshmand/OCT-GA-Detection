@@ -40,7 +40,7 @@ def main():
     print(model)
     save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
     
-    data_path = './FoveaProgression/data/model/X/'
+    data_path = './FoveaProgression/data/sample/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
