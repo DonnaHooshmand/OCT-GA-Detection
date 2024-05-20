@@ -22,12 +22,17 @@ def main():
     num_classes=3 #number of classes
     # model = CNNLSTMTest(num_classes)
     model = CNNLSTMSeq2Seq(num_classes)
+
+    # Calculate class weights
+    class_weights = calculate_class_weights(train_loader, num_classes=num_classes)
+    if torch.cuda.is_available():
+        class_weights = class_weights.cuda()
     
     # model parameters
     lr = 0.0001 #learning rate
     num_epochs = 100 # training epochs
     batch_size = 1 #bath size
-    criterion = nn.CrossEntropyLoss(weight=torch.tensor([1, 5, 10])) # Loss function
+    criterion = nn.CrossEntropyLoss(weight=class_weights) # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
     
     if torch.cuda.is_available():
