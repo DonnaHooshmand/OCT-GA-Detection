@@ -24,7 +24,7 @@ def main():
     model = CNNLSTMSeq2Seq(num_classes)
     
     # model parameters
-    lr = 0.00005 #learning rate
+    lr = 0.000001 #learning rate
     num_epochs = 50 # training epochs
     batch_size = 1 #bath size
     criterion = nn.CrossEntropyLoss() # Loss function
@@ -40,7 +40,7 @@ def main():
     print(model)
     save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
     
-    data_path = './FoveaProgression/data/sample/'
+    data_path = './FoveaProgression/data/model/02/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
