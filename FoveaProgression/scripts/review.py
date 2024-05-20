@@ -18,6 +18,7 @@ def setup_logging():
 def main():
 
     experiment_dir = create_experiment_folders('./FoveaProgression/experiments')
+
     
     num_classes=3 #number of classes
     # model = CNNLSTMTest(num_classes)
@@ -25,8 +26,8 @@ def main():
     
     # model parameters
     lr = 0.000001 #learning rate
-    num_epochs = 50 # training epochs
-    batch_size = 1 #bath size
+    num_epochs = 10 # training epochs
+    batch_size = 1 #batch size
     criterion = nn.CrossEntropyLoss() # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
     
@@ -38,16 +39,15 @@ def main():
         device = torch.device("cpu")
         print("Model is using CPU")
     print(model)
-    save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
     
-    data_path = './FoveaProgression/data/model/'
+    data_path = './FoveaProgression/data/sample/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
     
-    # data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
-    user_id = os.getuid()
-    data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
+    data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
+    # user_id = os.getuid()
+    # data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
 
     if not os.path.exists(data_dir):
         logging.error("\nData directory does not exist.")
@@ -62,7 +62,6 @@ def main():
     print("\nValidation Loader complete")
     test_loader = data_loader(data_dir,test_path,batch_size)
     print("\nTest Loader complete")
-    log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
 
     best_model_path = os.path.join(experiment_dir, 'best_model', 'best_model.pth')
     train_model(model, train_loader, val_loader, criterion, optimizer, num_epochs, best_model_path, experiment_dir)
