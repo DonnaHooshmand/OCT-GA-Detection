@@ -24,8 +24,8 @@ def main():
     model = CNNLSTMSeq2Seq(num_classes)
     
     # model parameters
-    lr = 0.000001 #learning rate
-    num_epochs = 50 # training epochs
+    lr = 0.0001 #learning rate
+    num_epochs = 100 # training epochs
     batch_size = 1 #bath size
     criterion = nn.CrossEntropyLoss() # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
@@ -40,7 +40,7 @@ def main():
     print(model)
     save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
     
-    data_path = './FoveaProgression/data/model/'
+    data_path = './FoveaProgression/data/model/X/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
@@ -65,7 +65,7 @@ def main():
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
 
     best_model_path = os.path.join(experiment_dir, 'best_model', 'best_model.pth')
-    train_model(model, train_loader, val_loader, criterion, optimizer, num_epochs, best_model_path, experiment_dir)
+    train_model_early_stopping(model, train_loader, val_loader, criterion, optimizer, num_epochs, best_model_path, experiment_dir)
 
     torch.save(model.state_dict(), os.path.join(experiment_dir, 'model_weights', 'final_model_weights.pth'))
 
