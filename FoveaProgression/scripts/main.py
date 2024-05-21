@@ -14,39 +14,26 @@ from log import *
 def setup_logging():
     """Setup basic logging."""
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    
+def calculate_class_weights(train_loader, num_classes):
+    """Calculate class weights based on the frequency of each class in the training dataset."""
+    class_counts = np.zeros(num_classes)
+    for _, labels, _ in train_loader:
+        labels = labels.view(-1)
+        for label in labels:
+            class_counts[label.item()] += 1
+    class_weights = 1. / class_counts
+    class_weights = class_weights / class_weights.sum() * num_classes  # Normalize weights
+    return torch.FloatTensor(class_weights)
 
 def main():
 
     experiment_dir = create_experiment_folders('./FoveaProgression/experiments')
     
-    num_classes=3 #number of classes
-    # model = CNNLSTMTest(num_classes)
-    model = CNNLSTMSeq2Seq(num_classes)
-
-    # Calculate class weights
-    class_weights = calculate_class_weights(train_loader, num_classes=num_classes)
-    if torch.cuda.is_available():
-        class_weights = class_weights.cuda()
-    
-    # model parameters
-    lr = 0.0001 #learning rate
-    num_epochs = 100 # training epochs
-    batch_size = 1 #bath size
-    criterion = nn.CrossEntropyLoss(weight=class_weights) # Loss function
-    optimizer = optim.Adam(model.parameters(), lr) # Optimizer
-    
-    if torch.cuda.is_available():
-        device = torch.device("cuda")
-        model.to(device)
-        print("Model is using GPU:", torch.cuda.get_device_name(device))
-    else:
-        device = torch.device("cpu")
-        print("Model is using CPU")
-    print(model)
-    save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
+    batch_size = 1 #batch size
     
     data_path = './FoveaProgression/data/experiment/X/'
-    data_path = './FoveaProgression/data/sample/'
+    # data_path = './FoveaProgression/data/sample/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
@@ -69,7 +56,32 @@ def main():
     test_loader = data_loader(data_dir,test_path,batch_size)
     print("\nTest Loader complete")
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
+    
+    num_classes=3 #number of classes
+    model = CNNLSTMSeq2Seq(num_classes)
 
+    # Calculate class weights
+    class_weights = calculate_class_weights(train_loader, num_classes=num_classes)
+    if torch.cuda.is_available():
+        class_weights = class_weights.cuda()
+    
+    # model parameters
+    lr = 0.0001 #learning rate
+    num_epochs = 100 # training epochs
+    criterion = nn.CrossEntropyLoss() # Loss function
+    optimizer = optim.Adam(model.parameters(), lr) # Optimizer
+    
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+        model.to(device)
+        print("Model is using GPU:", torch.cuda.get_device_name(device))
+    else:
+        device = torch.device("cpu")
+        print("Model is using CPU")
+    print(model)
+    save_model_architecture(model, os.path.join(experiment_dir, 'model_architecture', 'model_architecture.txt'))
+    
+    
     best_model_path = os.path.join(experiment_dir, 'best_model', 'best_model.pth')
     train_model(model, train_loader, val_loader, criterion, optimizer, num_epochs, best_model_path, experiment_dir)
 

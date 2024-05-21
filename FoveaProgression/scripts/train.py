@@ -192,13 +192,3 @@ def train_model_early_stopping(model, train_loader, val_loader, criterion, optim
     # Save training and validation losses and accuracies to a file
     save_metrics(train_losses, val_losses, train_accuracies, val_accuracies, experiment_dir)
 
-def calculate_class_weights(train_loader, num_classes):
-    """Calculate class weights based on the frequency of each class in the training dataset."""
-    class_counts = np.zeros(num_classes)
-    for _, labels, _ in train_loader:
-        labels = labels.view(-1)
-        for label in labels:
-            class_counts[label.item()] += 1
-    class_weights = 1. / class_counts
-    class_weights = class_weights / class_weights.sum() * num_classes  # Normalize weights
-    return torch.FloatTensor(class_weights)
