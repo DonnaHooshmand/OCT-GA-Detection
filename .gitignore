@@ -12,3 +12,4 @@ venv/
 /.venv
 
 FoveaProgression/experiments/
+FoveaProgression/data/cache/

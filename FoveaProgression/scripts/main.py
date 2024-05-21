@@ -37,28 +37,32 @@ def main():
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
-    
-    # data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
-    user_id = os.getuid()
-    data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
+    data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
+    # user_id = os.getuid()
+    # data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
 
     if not os.path.exists(data_dir):
         logging.error("\nData directory does not exist.")
         sys.exit(1)
     else:
         print("\nDirectory found, loading data ...")
+
+    cache_train = './FoveaProgression/data/cache/experiment/X/train.pkl'
+    cache_val = './FoveaProgression/data/cache/experiment/X/val.pkl'
+    cache_test = './FoveaProgression/data/cache/experiment/X/test.pkl'
     
     # train_loader, val_loader, test_loader = data_loader(data_dir,data_path,batch_size) 
-    train_loader = data_loader(data_dir,train_path,batch_size)
+    train_loader = data_loader(data_dir,train_path,batch_size,cache_train)
     print("\nTrain Loader complete")
-    val_loader = data_loader(data_dir,val_path,batch_size)
+    val_loader = data_loader(data_dir,val_path,batch_size,cache_val)
     print("\nValidation Loader complete")
-    test_loader = data_loader(data_dir,test_path,batch_size)
+    test_loader = data_loader(data_dir,test_path,batch_size,cache_test)
     print("\nTest Loader complete")
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
     
     num_classes=3 #number of classes
-    model = CNNLSTMSeq2Seq(num_classes)
+    # model = CNNLSTMSeq2Seq(num_classes)
+    model = ResNet34_LSTM(num_classes)
 
     # Calculate class weights
     class_weights = calculate_class_weights(train_loader, num_classes=num_classes)
@@ -68,7 +72,7 @@ def main():
     # model parameters
     lr = 0.0001 #learning rate
     num_epochs = 100 # training epochs
-    criterion = nn.CrossEntropyLoss() # Loss function
+    criterion = nn.CrossEntropyLoss(weight=class_weights) # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
     
     if torch.cuda.is_available():
