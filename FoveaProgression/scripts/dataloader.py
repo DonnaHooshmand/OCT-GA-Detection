@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, Dataset
 import pickle
 
 class CLAHETransform:
-    def __init__(self, clip_limit=1.0, tile_grid_size=(8, 8)):
+    def __init__(self, clip_limit=2.0, tile_grid_size=(8, 8)):
         self.clip_limit = clip_limit
         self.tile_grid_size = tile_grid_size
         self.clahe = cv2.createCLAHE(clipLimit=clip_limit, tileGridSize=tile_grid_size)
@@ -163,7 +163,9 @@ def data_loader(data_dir, path_data, batch_size):
 
     # Define the transformations
     transform = transforms.Compose([
-        CLAHETransform(clip_limit=2.0, tile_grid_size=(8, 8)),
+        # CLAHETransform(clip_limit=2.0, tile_grid_size=(8, 8)),
+        transforms.RandomRotation(degrees=20),
+        transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),
         transforms.Normalize(mean=[0.485], std=[0.229])
     ])
 

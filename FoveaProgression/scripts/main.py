@@ -32,14 +32,14 @@ def main():
     
     batch_size = 1 #batch size
     
-    data_path = './FoveaProgression/data/experiment/Y/'
-    # data_path = './FoveaProgression/data/sample/'
+    # data_path = './FoveaProgression/data/experiment/Y/'
+    data_path = './FoveaProgression/data/sample/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
-    # data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
-    user_id = os.getuid()
-    data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
+    data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
+    # user_id = os.getuid()
+    # data_dir = f"/run/user/{user_id}/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3"
 
     if not os.path.exists(data_dir):
         logging.error("\nData directory does not exist.")
@@ -57,8 +57,9 @@ def main():
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
     
 
-    num_classes=3 #number of classes
+    num_classes=5 #number of classes
     # model = CNNLSTMSeq2Seq(num_classes)
+    model = ResNet34_LSTM(num_classes)
     model = ResNet34_LSTM_Improved(num_classes)
 
     # Calculate class weights
