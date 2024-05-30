@@ -86,6 +86,7 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, num_epoch
         if val_loss < best_val_loss:
             best_val_loss = val_loss
             torch.save(model.state_dict(), best_model_path)
+            print(f'Last Best Model:{best_model_path}')
 
     # Plot and save loss and accuracy curves
     plot_curves(train_losses, val_losses, train_accuracies, val_accuracies, experiment_dir)

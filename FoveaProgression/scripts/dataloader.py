@@ -9,6 +9,18 @@ from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
 import pickle
 
+class CLAHETransform:
+    def __init__(self, clip_limit=1.0, tile_grid_size=(8, 8)):
+        self.clip_limit = clip_limit
+        self.tile_grid_size = tile_grid_size
+        self.clahe = cv2.createCLAHE(clipLimit=clip_limit, tileGridSize=tile_grid_size)
+
+    def __call__(self, img):
+        img = img.numpy().squeeze(0)  # Convert tensor to numpy array and remove the channel dimension
+        img_clahe = self.clahe.apply(np.uint8(img * 255))  # Apply CLAHE and scale back to [0, 255]
+        img_clahe = torch.from_numpy(img_clahe / 255.0).unsqueeze(0).float()  # Convert back to tensor
+        return img_clahe
+
 class EyeScanDataset(Dataset):
     def __init__(self, images, labels, folder_name, transform=None):
         """
@@ -163,6 +175,7 @@ def data_loader(data_dir, path_data, batch_size, cache_file):
 
         # Define the transformations
         transform = transforms.Compose([
+            CLAHETransform(clip_limit=2.0, tile_grid_size=(8, 8)),
             transforms.Normalize(mean=[0.485], std=[0.229])
         ])
 
@@ -171,7 +184,8 @@ def data_loader(data_dir, path_data, batch_size, cache_file):
         Y = [np.array(sequence) for sequence in Y]  # Convert labels to arrays
 
         dataset = EyeScanDataset(X, Y, scan_id, transform=transform)  # Create dataset objects
-        save_cached_data(dataset, cache_file)
+        # save_cached_data(dataset, cache_file)
 
     data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)  # Create DataLoaders
+    # visualize_data(data_loader)
     return data_loader
