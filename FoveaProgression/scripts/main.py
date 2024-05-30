@@ -47,16 +47,12 @@ def main():
     else:
         print("\nDirectory found, loading data ...")
 
-    cache_train = './FoveaProgression/data/cache/experiment/Y/train.pkl'
-    cache_val = './FoveaProgression/data/cache/experiment/Y/val.pkl'
-    cache_test = './FoveaProgression/data/cache/experiment/Y/test.pkl'
-    
     # train_loader, val_loader, test_loader = data_loader(data_dir,data_path,batch_size) 
-    train_loader = data_loader(data_dir,train_path,batch_size,cache_train)
+    train_loader = data_loader(data_dir,train_path,batch_size)
     print("\nTrain Loader complete")
-    val_loader = data_loader(data_dir,val_path,batch_size,cache_val)
+    val_loader = data_loader(data_dir,val_path,batch_size)
     print("\nValidation Loader complete")
-    test_loader = data_loader(data_dir,test_path,batch_size,cache_test)
+    test_loader = data_loader(data_dir,test_path,batch_size)
     print("\nTest Loader complete")
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
     

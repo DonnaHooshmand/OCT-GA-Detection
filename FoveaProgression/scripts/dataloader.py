@@ -156,35 +156,22 @@ def check_shapes(data_loader):
     print("Shape of images batch:", images.shape)
     print("Shape of labels batch:", labels.shape)
 
-def save_cached_data(dataset, cache_file):
-    with open(cache_file, 'wb') as f:
-        pickle.dump(dataset, f)
+def data_loader(data_dir, path_data, batch_size):
+    
+    print("Processing data...")
+    X, Y, scan_id = load_images_and_labels(data_dir, path_data)
 
-def load_cached_data(cache_file):
-    with open(cache_file, 'rb') as f:
-        dataset = pickle.load(f)
-    return dataset
+    # Define the transformations
+    transform = transforms.Compose([
+        CLAHETransform(clip_limit=2.0, tile_grid_size=(8, 8)),
+        transforms.Normalize(mean=[0.485], std=[0.229])
+    ])
 
-def data_loader(data_dir, path_data, batch_size, cache_file):
-    if os.path.exists(cache_file):
-        print("Loading cached dataset...")
-        dataset = load_cached_data(cache_file)
-    else:
-        print("Processing data...")
-        X, Y, scan_id = load_images_and_labels(data_dir, path_data)
+    # Convert the data to tensors
+    X = [np.stack(sequence) for sequence in X]  # Stack images in each sequence
+    Y = [np.array(sequence) for sequence in Y]  # Convert labels to arrays
 
-        # Define the transformations
-        transform = transforms.Compose([
-            CLAHETransform(clip_limit=2.0, tile_grid_size=(8, 8)),
-            transforms.Normalize(mean=[0.485], std=[0.229])
-        ])
-
-        # Convert the data to tensors
-        X = [np.stack(sequence) for sequence in X]  # Stack images in each sequence
-        Y = [np.array(sequence) for sequence in Y]  # Convert labels to arrays
-
-        dataset = EyeScanDataset(X, Y, scan_id, transform=transform)  # Create dataset objects
-        # save_cached_data(dataset, cache_file)
+    dataset = EyeScanDataset(X, Y, scan_id, transform=transform)  # Create dataset objects
 
     data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)  # Create DataLoaders
     # visualize_data(data_loader)
