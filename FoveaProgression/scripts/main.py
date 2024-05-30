@@ -61,7 +61,7 @@ def main():
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
     
 
-    num_classes=3 #number of classes
+    num_classes=5 #number of classes
     # model = CNNLSTMSeq2Seq(num_classes)
     model = ResNet34_LSTM_Improved(num_classes)
 
@@ -72,7 +72,7 @@ def main():
     
     # model parameters
     lr = 0.0001 #learning rate
-    num_epochs = 10 # training epochs
+    num_epochs = 50 # training epochs
     criterion = nn.CrossEntropyLoss(weight=class_weights) # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
     

@@ -184,7 +184,7 @@ def data_loader(data_dir, path_data, batch_size, cache_file):
         Y = [np.array(sequence) for sequence in Y]  # Convert labels to arrays
 
         dataset = EyeScanDataset(X, Y, scan_id, transform=transform)  # Create dataset objects
-        # save_cached_data(dataset, cache_file)
+        save_cached_data(dataset, cache_file)
 
     data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)  # Create DataLoaders
     # visualize_data(data_loader)
