@@ -69,7 +69,7 @@ def main():
     
     # model parameters
     lr = 0.0001 #learning rate
-    num_epochs = 10 # training epochs
+    num_epochs = 50 # training epochs
     criterion = nn.CrossEntropyLoss(weight=class_weights) # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
     
