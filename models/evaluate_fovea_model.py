@@ -72,7 +72,7 @@ def main():
     data_dir = r'/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3'
     csv_file = './data/test_dataset.csv'
     batch_size = 32
-    model_path = './models/resnet18_model_V1.pth'
+    model_path = 'models/resnet18_fovea_model.pth'
 
     test_loader = load_data(csv_file, data_dir, batch_size)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

@@ -54,7 +54,7 @@ def main():
     print(f'Device: {device}')
     
     # Loading trained model
-    model_path = 'models/resnet18_fovea_model.pth'
+    model_path = './models/resnet18_fovea_model.pth'
     model = torch.load(model_path)
     model = model.to(device)
     

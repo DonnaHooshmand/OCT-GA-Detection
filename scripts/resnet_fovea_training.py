@@ -7,6 +7,8 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 from sklearn.utils import resample
+import warnings
+warnings.filterwarnings('ignore')
 
 class OCTDataset(Dataset):
     def __init__(self, dataframe, transform=None):
@@ -17,7 +19,8 @@ class OCTDataset(Dataset):
         return len(self.dataframe)
     
     def __getitem__(self, idx):
-        img_path = self.dataframe.iloc[idx]['image_path']
+        img_path = "../../../../..//run/user/1002/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share=run/user/1002/gvfs/smb-share:server=fsmresfiles.fsm.northwestern.edu,share="
+        img_path += self.dataframe.iloc[idx]['image_path']
         image = Image.open(img_path).convert('L')  # Convert image to grayscale
         image = np.array(image)
         image = np.stack([image] * 3, axis=-1)  # Replicate grayscale across three channels
@@ -45,13 +48,14 @@ def modify_resnet():
     model = models.resnet18(pretrained=True)
     return model
 
-def train_model(train_loader, val_loader, model, epochs, learning_rate, model_save_path):
+def train_model(train_loader, val_loader, model, epochs, learning_rate, model_save_path, device):
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
     best_loss = float('inf')
     for epoch in range(epochs):
         model.train()
         for i, (images, labels) in enumerate(train_loader):
+            images, labels = images.to(device), labels.to(device)  # Ensure data is on the same device as the model
             optimizer.zero_grad()
             outputs = model(images)
             loss = criterion(outputs, labels)
@@ -59,13 +63,12 @@ def train_model(train_loader, val_loader, model, epochs, learning_rate, model_sa
             optimizer.step()
             if (i + 1) % 10 == 0:  # Log every 10 batches
                 print(f'Epoch {epoch+1}, Batch {i+1}, Loss: {loss.item()}')
-        # Save the model if it's the best so far
         if loss.item() < best_loss:
             best_loss = loss.item()
             torch.save(model.state_dict(), model_save_path)
             print(f'Model saved with loss of {best_loss}')
     print('Training complete')
-    
+
 def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f'Training on {device}')
