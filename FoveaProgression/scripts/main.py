@@ -32,8 +32,8 @@ def main():
     
     batch_size = 1 #batch size
     
-    data_path = './FoveaProgression/data/experiment/X/'
-    # data_path = './FoveaProgression/data/sample/'
+    # data_path = './FoveaProgression/data/experiment/Y/'
+    data_path = './FoveaProgression/data/sample/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
     test_path = data_path + 'test.csv'
@@ -47,9 +47,9 @@ def main():
     else:
         print("\nDirectory found, loading data ...")
 
-    cache_train = './FoveaProgression/data/cache/experiment/X/train.pkl'
-    cache_val = './FoveaProgression/data/cache/experiment/X/val.pkl'
-    cache_test = './FoveaProgression/data/cache/experiment/X/test.pkl'
+    cache_train = './FoveaProgression/data/cache/experiment/sample/train.pkl'
+    cache_val = './FoveaProgression/data/cache/experiment/sample/val.pkl'
+    cache_test = './FoveaProgression/data/cache/experiment/sample/test.pkl'
     
     # train_loader, val_loader, test_loader = data_loader(data_dir,data_path,batch_size) 
     train_loader = data_loader(data_dir,train_path,batch_size,cache_train)
@@ -60,9 +60,10 @@ def main():
     print("\nTest Loader complete")
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
     
-    num_classes=3 #number of classes
+
+    num_classes=5 #number of classes
     # model = CNNLSTMSeq2Seq(num_classes)
-    model = ResNet34_LSTM(num_classes)
+    model = ResNet34_LSTM_Improved(num_classes)
 
     # Calculate class weights
     class_weights = calculate_class_weights(train_loader, num_classes=num_classes)
@@ -71,7 +72,7 @@ def main():
     
     # model parameters
     lr = 0.0001 #learning rate
-    num_epochs = 100 # training epochs
+    num_epochs = 10 # training epochs
     criterion = nn.CrossEntropyLoss(weight=class_weights) # Loss function
     optimizer = optim.Adam(model.parameters(), lr) # Optimizer
     

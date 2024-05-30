@@ -1,243 +1,243 @@
 ,scan_name,scan_number,folder_name,patient_id,eye_side,status,label,sequence,sequence_label,image_path
-10202,047_OS_1_GA_6x6_SSOCT_1_1.jpg,1,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_1.jpg
-10439,047_OS_1_GA_6x6_SSOCT_1_2.jpg,2,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_2.jpg
-10021,047_OS_1_GA_6x6_SSOCT_1_3.jpg,3,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_3.jpg
-10301,047_OS_1_GA_6x6_SSOCT_1_4.jpg,4,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_4.jpg
-10164,047_OS_1_GA_6x6_SSOCT_1_5.jpg,5,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_5.jpg
-10238,047_OS_1_GA_6x6_SSOCT_1_6.jpg,6,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_6.jpg
-10492,047_OS_1_GA_6x6_SSOCT_1_7.jpg,7,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_7.jpg
-10410,047_OS_1_GA_6x6_SSOCT_1_8.jpg,8,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_8.jpg
-10017,047_OS_1_GA_6x6_SSOCT_1_9.jpg,9,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_9.jpg
-10395,047_OS_1_GA_6x6_SSOCT_1_10.jpg,10,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_10.jpg
-10059,047_OS_1_GA_6x6_SSOCT_1_11.jpg,11,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_11.jpg
-10357,047_OS_1_GA_6x6_SSOCT_1_12.jpg,12,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_12.jpg
-10340,047_OS_1_GA_6x6_SSOCT_1_13.jpg,13,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_13.jpg
-10273,047_OS_1_GA_6x6_SSOCT_1_14.jpg,14,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_14.jpg
-10170,047_OS_1_GA_6x6_SSOCT_1_15.jpg,15,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_15.jpg
-10103,047_OS_1_GA_6x6_SSOCT_1_16.jpg,16,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_16.jpg
-10117,047_OS_1_GA_6x6_SSOCT_1_17.jpg,17,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_17.jpg
-10078,047_OS_1_GA_6x6_SSOCT_1_18.jpg,18,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_18.jpg
-10055,047_OS_1_GA_6x6_SSOCT_1_19.jpg,19,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_19.jpg
-10450,047_OS_1_GA_6x6_SSOCT_1_20.jpg,20,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_20.jpg
-10414,047_OS_1_GA_6x6_SSOCT_1_21.jpg,21,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_21.jpg
-10372,047_OS_1_GA_6x6_SSOCT_1_22.jpg,22,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_22.jpg
-10115,047_OS_1_GA_6x6_SSOCT_1_23.jpg,23,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_23.jpg
-10057,047_OS_1_GA_6x6_SSOCT_1_24.jpg,24,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_24.jpg
-10262,047_OS_1_GA_6x6_SSOCT_1_25.jpg,25,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_25.jpg
-10064,047_OS_1_GA_6x6_SSOCT_1_26.jpg,26,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_26.jpg
-10236,047_OS_1_GA_6x6_SSOCT_1_27.jpg,27,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_27.jpg
-10279,047_OS_1_GA_6x6_SSOCT_1_28.jpg,28,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_28.jpg
-10177,047_OS_1_GA_6x6_SSOCT_1_29.jpg,29,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_29.jpg
-10188,047_OS_1_GA_6x6_SSOCT_1_30.jpg,30,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_30.jpg
-10043,047_OS_1_GA_6x6_SSOCT_1_31.jpg,31,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_31.jpg
-10339,047_OS_1_GA_6x6_SSOCT_1_32.jpg,32,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_32.jpg
-10312,047_OS_1_GA_6x6_SSOCT_1_33.jpg,33,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_33.jpg
-10435,047_OS_1_GA_6x6_SSOCT_1_34.jpg,34,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_34.jpg
-10264,047_OS_1_GA_6x6_SSOCT_1_35.jpg,35,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_35.jpg
-10077,047_OS_1_GA_6x6_SSOCT_1_36.jpg,36,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_36.jpg
-10025,047_OS_1_GA_6x6_SSOCT_1_37.jpg,37,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_37.jpg
-10328,047_OS_1_GA_6x6_SSOCT_1_38.jpg,38,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_38.jpg
-10068,047_OS_1_GA_6x6_SSOCT_1_39.jpg,39,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_39.jpg
-10411,047_OS_1_GA_6x6_SSOCT_1_40.jpg,40,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_40.jpg
-10122,047_OS_1_GA_6x6_SSOCT_1_41.jpg,41,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_41.jpg
-10217,047_OS_1_GA_6x6_SSOCT_1_42.jpg,42,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_42.jpg
-10329,047_OS_1_GA_6x6_SSOCT_1_43.jpg,43,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_43.jpg
-10075,047_OS_1_GA_6x6_SSOCT_1_44.jpg,44,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_44.jpg
-10156,047_OS_1_GA_6x6_SSOCT_1_45.jpg,45,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_45.jpg
-10020,047_OS_1_GA_6x6_SSOCT_1_46.jpg,46,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_46.jpg
-10204,047_OS_1_GA_6x6_SSOCT_1_47.jpg,47,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_47.jpg
-10035,047_OS_1_GA_6x6_SSOCT_1_48.jpg,48,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_48.jpg
-10109,047_OS_1_GA_6x6_SSOCT_1_49.jpg,49,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_49.jpg
-10193,047_OS_1_GA_6x6_SSOCT_1_50.jpg,50,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_50.jpg
-10070,047_OS_1_GA_6x6_SSOCT_1_51.jpg,51,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_51.jpg
-10151,047_OS_1_GA_6x6_SSOCT_1_52.jpg,52,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_52.jpg
-10252,047_OS_1_GA_6x6_SSOCT_1_53.jpg,53,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_53.jpg
-10379,047_OS_1_GA_6x6_SSOCT_1_54.jpg,54,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_54.jpg
-10281,047_OS_1_GA_6x6_SSOCT_1_55.jpg,55,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_55.jpg
-10402,047_OS_1_GA_6x6_SSOCT_1_56.jpg,56,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_56.jpg
-10307,047_OS_1_GA_6x6_SSOCT_1_57.jpg,57,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_57.jpg
-10119,047_OS_1_GA_6x6_SSOCT_1_58.jpg,58,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_58.jpg
-10314,047_OS_1_GA_6x6_SSOCT_1_59.jpg,59,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_59.jpg
-10053,047_OS_1_GA_6x6_SSOCT_1_60.jpg,60,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_60.jpg
-10206,047_OS_1_GA_6x6_SSOCT_1_61.jpg,61,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_61.jpg
-10159,047_OS_1_GA_6x6_SSOCT_1_62.jpg,62,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_62.jpg
-10022,047_OS_1_GA_6x6_SSOCT_1_63.jpg,63,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_63.jpg
-10403,047_OS_1_GA_6x6_SSOCT_1_64.jpg,64,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_64.jpg
-10120,047_OS_1_GA_6x6_SSOCT_1_65.jpg,65,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_65.jpg
-10337,047_OS_1_GA_6x6_SSOCT_1_66.jpg,66,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_66.jpg
-10313,047_OS_1_GA_6x6_SSOCT_1_67.jpg,67,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_67.jpg
-10282,047_OS_1_GA_6x6_SSOCT_1_68.jpg,68,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_68.jpg
-10090,047_OS_1_GA_6x6_SSOCT_1_69.jpg,69,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_69.jpg
-10400,047_OS_1_GA_6x6_SSOCT_1_70.jpg,70,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_70.jpg
-10494,047_OS_1_GA_6x6_SSOCT_1_71.jpg,71,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_71.jpg
-10044,047_OS_1_GA_6x6_SSOCT_1_72.jpg,72,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_72.jpg
-10367,047_OS_1_GA_6x6_SSOCT_1_73.jpg,73,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_73.jpg
-10192,047_OS_1_GA_6x6_SSOCT_1_74.jpg,74,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_74.jpg
-10310,047_OS_1_GA_6x6_SSOCT_1_75.jpg,75,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_75.jpg
-10300,047_OS_1_GA_6x6_SSOCT_1_76.jpg,76,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_76.jpg
-10118,047_OS_1_GA_6x6_SSOCT_1_77.jpg,77,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_77.jpg
-10065,047_OS_1_GA_6x6_SSOCT_1_78.jpg,78,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_78.jpg
-10138,047_OS_1_GA_6x6_SSOCT_1_79.jpg,79,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_79.jpg
-10386,047_OS_1_GA_6x6_SSOCT_1_80.jpg,80,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_80.jpg
-10432,047_OS_1_GA_6x6_SSOCT_1_81.jpg,81,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_81.jpg
-10224,047_OS_1_GA_6x6_SSOCT_1_82.jpg,82,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_82.jpg
-10355,047_OS_1_GA_6x6_SSOCT_1_83.jpg,83,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_83.jpg
-10130,047_OS_1_GA_6x6_SSOCT_1_84.jpg,84,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_84.jpg
-10050,047_OS_1_GA_6x6_SSOCT_1_85.jpg,85,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_85.jpg
-10215,047_OS_1_GA_6x6_SSOCT_1_86.jpg,86,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_86.jpg
-10008,047_OS_1_GA_6x6_SSOCT_1_87.jpg,87,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_87.jpg
-10327,047_OS_1_GA_6x6_SSOCT_1_88.jpg,88,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_88.jpg
-10333,047_OS_1_GA_6x6_SSOCT_1_89.jpg,89,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_89.jpg
-10108,047_OS_1_GA_6x6_SSOCT_1_90.jpg,90,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_90.jpg
-10244,047_OS_1_GA_6x6_SSOCT_1_91.jpg,91,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_91.jpg
-10315,047_OS_1_GA_6x6_SSOCT_1_92.jpg,92,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_92.jpg
-10040,047_OS_1_GA_6x6_SSOCT_1_93.jpg,93,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_93.jpg
-10132,047_OS_1_GA_6x6_SSOCT_1_94.jpg,94,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_94.jpg
-10458,047_OS_1_GA_6x6_SSOCT_1_95.jpg,95,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_95.jpg
-10023,047_OS_1_GA_6x6_SSOCT_1_96.jpg,96,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_96.jpg
-10013,047_OS_1_GA_6x6_SSOCT_1_97.jpg,97,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_97.jpg
-10107,047_OS_1_GA_6x6_SSOCT_1_98.jpg,98,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_98.jpg
-10424,047_OS_1_GA_6x6_SSOCT_1_99.jpg,99,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_99.jpg
-10099,047_OS_1_GA_6x6_SSOCT_1_100.jpg,100,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_100.jpg
-10129,047_OS_1_GA_6x6_SSOCT_1_101.jpg,101,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_101.jpg
-10037,047_OS_1_GA_6x6_SSOCT_1_102.jpg,102,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_102.jpg
-10287,047_OS_1_GA_6x6_SSOCT_1_103.jpg,103,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_103.jpg
-10080,047_OS_1_GA_6x6_SSOCT_1_104.jpg,104,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_104.jpg
-10000,047_OS_1_GA_6x6_SSOCT_1_105.jpg,105,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_105.jpg
-10487,047_OS_1_GA_6x6_SSOCT_1_106.jpg,106,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_106.jpg
-10309,047_OS_1_GA_6x6_SSOCT_1_107.jpg,107,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_107.jpg
-10465,047_OS_1_GA_6x6_SSOCT_1_108.jpg,108,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_108.jpg
-10219,047_OS_1_GA_6x6_SSOCT_1_109.jpg,109,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_109.jpg
-10493,047_OS_1_GA_6x6_SSOCT_1_110.jpg,110,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_110.jpg
-10326,047_OS_1_GA_6x6_SSOCT_1_111.jpg,111,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_111.jpg
-10072,047_OS_1_GA_6x6_SSOCT_1_112.jpg,112,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_112.jpg
-10106,047_OS_1_GA_6x6_SSOCT_1_113.jpg,113,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_113.jpg
-10425,047_OS_1_GA_6x6_SSOCT_1_114.jpg,114,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_114.jpg
-10011,047_OS_1_GA_6x6_SSOCT_1_115.jpg,115,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_115.jpg
-10046,047_OS_1_GA_6x6_SSOCT_1_116.jpg,116,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_116.jpg
-10275,047_OS_1_GA_6x6_SSOCT_1_117.jpg,117,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_117.jpg
-10277,047_OS_1_GA_6x6_SSOCT_1_118.jpg,118,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_118.jpg
-10321,047_OS_1_GA_6x6_SSOCT_1_119.jpg,119,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_119.jpg
-10485,047_OS_1_GA_6x6_SSOCT_1_120.jpg,120,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_120.jpg
-10370,047_OS_1_GA_6x6_SSOCT_1_121.jpg,121,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_121.jpg
-10203,047_OS_1_GA_6x6_SSOCT_1_122.jpg,122,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_122.jpg
-10349,047_OS_1_GA_6x6_SSOCT_1_123.jpg,123,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_123.jpg
-10218,047_OS_1_GA_6x6_SSOCT_1_124.jpg,124,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_124.jpg
-10378,047_OS_1_GA_6x6_SSOCT_1_125.jpg,125,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_125.jpg
-10463,047_OS_1_GA_6x6_SSOCT_1_126.jpg,126,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_126.jpg
-10423,047_OS_1_GA_6x6_SSOCT_1_127.jpg,127,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_127.jpg
-10430,047_OS_1_GA_6x6_SSOCT_1_128.jpg,128,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_128.jpg
-10186,047_OS_1_GA_6x6_SSOCT_1_129.jpg,129,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_129.jpg
-10223,047_OS_1_GA_6x6_SSOCT_1_130.jpg,130,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_130.jpg
-10418,047_OS_1_GA_6x6_SSOCT_1_131.jpg,131,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_131.jpg
-10087,047_OS_1_GA_6x6_SSOCT_1_132.jpg,132,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_132.jpg
-10467,047_OS_1_GA_6x6_SSOCT_1_133.jpg,133,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_133.jpg
-10086,047_OS_1_GA_6x6_SSOCT_1_134.jpg,134,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_134.jpg
-10237,047_OS_1_GA_6x6_SSOCT_1_135.jpg,135,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_135.jpg
-10230,047_OS_1_GA_6x6_SSOCT_1_136.jpg,136,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_136.jpg
-10332,047_OS_1_GA_6x6_SSOCT_1_137.jpg,137,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_137.jpg
-10153,047_OS_1_GA_6x6_SSOCT_1_138.jpg,138,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_138.jpg
-10451,047_OS_1_GA_6x6_SSOCT_1_139.jpg,139,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_139.jpg
-10258,047_OS_1_GA_6x6_SSOCT_1_140.jpg,140,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_140.jpg
-10198,047_OS_1_GA_6x6_SSOCT_1_141.jpg,141,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_141.jpg
-10105,047_OS_1_GA_6x6_SSOCT_1_142.jpg,142,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_142.jpg
-10475,047_OS_1_GA_6x6_SSOCT_1_143.jpg,143,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_143.jpg
-10407,047_OS_1_GA_6x6_SSOCT_1_144.jpg,144,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_144.jpg
-10390,047_OS_1_GA_6x6_SSOCT_1_145.jpg,145,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_145.jpg
-10408,047_OS_1_GA_6x6_SSOCT_1_146.jpg,146,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_146.jpg
-10136,047_OS_1_GA_6x6_SSOCT_1_147.jpg,147,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_147.jpg
-10440,047_OS_1_GA_6x6_SSOCT_1_148.jpg,148,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_148.jpg
-10256,047_OS_1_GA_6x6_SSOCT_1_149.jpg,149,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_149.jpg
-10271,047_OS_1_GA_6x6_SSOCT_1_150.jpg,150,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_150.jpg
-10160,047_OS_1_GA_6x6_SSOCT_1_151.jpg,151,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_151.jpg
-10116,047_OS_1_GA_6x6_SSOCT_1_152.jpg,152,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_152.jpg
-10189,047_OS_1_GA_6x6_SSOCT_1_153.jpg,153,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_153.jpg
-10478,047_OS_1_GA_6x6_SSOCT_1_154.jpg,154,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_154.jpg
-10114,047_OS_1_GA_6x6_SSOCT_1_155.jpg,155,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_155.jpg
-10015,047_OS_1_GA_6x6_SSOCT_1_156.jpg,156,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_156.jpg
-10443,047_OS_1_GA_6x6_SSOCT_1_157.jpg,157,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_157.jpg
-10125,047_OS_1_GA_6x6_SSOCT_1_158.jpg,158,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_158.jpg
-10066,047_OS_1_GA_6x6_SSOCT_1_159.jpg,159,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_159.jpg
-10383,047_OS_1_GA_6x6_SSOCT_1_160.jpg,160,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_160.jpg
-10234,047_OS_1_GA_6x6_SSOCT_1_161.jpg,161,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_161.jpg
-10229,047_OS_1_GA_6x6_SSOCT_1_162.jpg,162,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_162.jpg
-10334,047_OS_1_GA_6x6_SSOCT_1_163.jpg,163,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_163.jpg
-10366,047_OS_1_GA_6x6_SSOCT_1_164.jpg,164,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_164.jpg
-10032,047_OS_1_GA_6x6_SSOCT_1_165.jpg,165,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_165.jpg
-10359,047_OS_1_GA_6x6_SSOCT_1_166.jpg,166,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_166.jpg
-10242,047_OS_1_GA_6x6_SSOCT_1_167.jpg,167,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_167.jpg
-10183,047_OS_1_GA_6x6_SSOCT_1_168.jpg,168,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_168.jpg
-10082,047_OS_1_GA_6x6_SSOCT_1_169.jpg,169,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_169.jpg
-10030,047_OS_1_GA_6x6_SSOCT_1_170.jpg,170,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_170.jpg
-10250,047_OS_1_GA_6x6_SSOCT_1_171.jpg,171,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_171.jpg
-10468,047_OS_1_GA_6x6_SSOCT_1_172.jpg,172,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_172.jpg
-10317,047_OS_1_GA_6x6_SSOCT_1_173.jpg,173,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_173.jpg
-10335,047_OS_1_GA_6x6_SSOCT_1_174.jpg,174,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_174.jpg
-10474,047_OS_1_GA_6x6_SSOCT_1_175.jpg,175,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_175.jpg
-10495,047_OS_1_GA_6x6_SSOCT_1_176.jpg,176,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_176.jpg
-10285,047_OS_1_GA_6x6_SSOCT_1_177.jpg,177,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_177.jpg
-10175,047_OS_1_GA_6x6_SSOCT_1_178.jpg,178,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_178.jpg
-10459,047_OS_1_GA_6x6_SSOCT_1_179.jpg,179,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_179.jpg
-10191,047_OS_1_GA_6x6_SSOCT_1_180.jpg,180,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_180.jpg
-10168,047_OS_1_GA_6x6_SSOCT_1_181.jpg,181,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_181.jpg
-10006,047_OS_1_GA_6x6_SSOCT_1_182.jpg,182,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_182.jpg
-10405,047_OS_1_GA_6x6_SSOCT_1_183.jpg,183,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_183.jpg
-10126,047_OS_1_GA_6x6_SSOCT_1_184.jpg,184,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_184.jpg
-10232,047_OS_1_GA_6x6_SSOCT_1_185.jpg,185,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_185.jpg
-10209,047_OS_1_GA_6x6_SSOCT_1_186.jpg,186,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_186.jpg
-10381,047_OS_1_GA_6x6_SSOCT_1_187.jpg,187,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_187.jpg
-10323,047_OS_1_GA_6x6_SSOCT_1_188.jpg,188,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_188.jpg
-10002,047_OS_1_GA_6x6_SSOCT_1_189.jpg,189,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_189.jpg
-10289,047_OS_1_GA_6x6_SSOCT_1_190.jpg,190,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_190.jpg
-10456,047_OS_1_GA_6x6_SSOCT_1_191.jpg,191,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_191.jpg
-10437,047_OS_1_GA_6x6_SSOCT_1_192.jpg,192,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_192.jpg
-10413,047_OS_1_GA_6x6_SSOCT_1_193.jpg,193,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_193.jpg
-10142,047_OS_1_GA_6x6_SSOCT_1_194.jpg,194,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_194.jpg
-10324,047_OS_1_GA_6x6_SSOCT_1_195.jpg,195,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_195.jpg
-10260,047_OS_1_GA_6x6_SSOCT_1_196.jpg,196,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_196.jpg
-10254,047_OS_1_GA_6x6_SSOCT_1_197.jpg,197,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_197.jpg
-10358,047_OS_1_GA_6x6_SSOCT_1_198.jpg,198,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_198.jpg
-10220,047_OS_1_GA_6x6_SSOCT_1_199.jpg,199,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_199.jpg
-10320,047_OS_1_GA_6x6_SSOCT_1_200.jpg,200,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_200.jpg
-10247,047_OS_1_GA_6x6_SSOCT_1_201.jpg,201,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_201.jpg
-10079,047_OS_1_GA_6x6_SSOCT_1_202.jpg,202,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_202.jpg
-10442,047_OS_1_GA_6x6_SSOCT_1_203.jpg,203,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_203.jpg
-10104,047_OS_1_GA_6x6_SSOCT_1_204.jpg,204,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_204.jpg
-10058,047_OS_1_GA_6x6_SSOCT_1_205.jpg,205,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_205.jpg
-10233,047_OS_1_GA_6x6_SSOCT_1_206.jpg,206,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_206.jpg
-10110,047_OS_1_GA_6x6_SSOCT_1_207.jpg,207,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_207.jpg
-10361,047_OS_1_GA_6x6_SSOCT_1_208.jpg,208,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_208.jpg
-10392,047_OS_1_GA_6x6_SSOCT_1_209.jpg,209,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_209.jpg
-10347,047_OS_1_GA_6x6_SSOCT_1_210.jpg,210,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_210.jpg
-10346,047_OS_1_GA_6x6_SSOCT_1_211.jpg,211,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_211.jpg
-10420,047_OS_1_GA_6x6_SSOCT_1_212.jpg,212,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_212.jpg
-10491,047_OS_1_GA_6x6_SSOCT_1_213.jpg,213,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_213.jpg
-10095,047_OS_1_GA_6x6_SSOCT_1_214.jpg,214,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_214.jpg
-10062,047_OS_1_GA_6x6_SSOCT_1_215.jpg,215,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_215.jpg
-10211,047_OS_1_GA_6x6_SSOCT_1_216.jpg,216,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_216.jpg
-10269,047_OS_1_GA_6x6_SSOCT_1_217.jpg,217,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_217.jpg
-10149,047_OS_1_GA_6x6_SSOCT_1_218.jpg,218,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_218.jpg
-10052,047_OS_1_GA_6x6_SSOCT_1_219.jpg,219,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_219.jpg
-10497,047_OS_1_GA_6x6_SSOCT_1_220.jpg,220,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_220.jpg
-10039,047_OS_1_GA_6x6_SSOCT_1_221.jpg,221,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_221.jpg
-10226,047_OS_1_GA_6x6_SSOCT_1_222.jpg,222,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_222.jpg
-10001,047_OS_1_GA_6x6_SSOCT_1_223.jpg,223,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_223.jpg
-10444,047_OS_1_GA_6x6_SSOCT_1_224.jpg,224,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_224.jpg
-10143,047_OS_1_GA_6x6_SSOCT_1_225.jpg,225,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_225.jpg
-10154,047_OS_1_GA_6x6_SSOCT_1_226.jpg,226,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_226.jpg
-10026,047_OS_1_GA_6x6_SSOCT_1_227.jpg,227,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_227.jpg
-10139,047_OS_1_GA_6x6_SSOCT_1_228.jpg,228,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_228.jpg
-10179,047_OS_1_GA_6x6_SSOCT_1_229.jpg,229,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_229.jpg
-10155,047_OS_1_GA_6x6_SSOCT_1_230.jpg,230,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_230.jpg
-10094,047_OS_1_GA_6x6_SSOCT_1_231.jpg,231,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_231.jpg
-10466,047_OS_1_GA_6x6_SSOCT_1_232.jpg,232,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_232.jpg
-10266,047_OS_1_GA_6x6_SSOCT_1_233.jpg,233,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_233.jpg
-10081,047_OS_1_GA_6x6_SSOCT_1_234.jpg,234,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_234.jpg
-10295,047_OS_1_GA_6x6_SSOCT_1_235.jpg,235,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_235.jpg
-10231,047_OS_1_GA_6x6_SSOCT_1_236.jpg,236,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_236.jpg
-10128,047_OS_1_GA_6x6_SSOCT_1_237.jpg,237,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_237.jpg
-10330,047_OS_1_GA_6x6_SSOCT_1_238.jpg,238,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_238.jpg
-10433,047_OS_1_GA_6x6_SSOCT_1_239.jpg,239,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_239.jpg
+10202,047_OS_1_GA_6x6_SSOCT_1_1.jpg,1,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_1.jpg
+10439,047_OS_1_GA_6x6_SSOCT_1_2.jpg,2,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_2.jpg
+10021,047_OS_1_GA_6x6_SSOCT_1_3.jpg,3,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_3.jpg
+10301,047_OS_1_GA_6x6_SSOCT_1_4.jpg,4,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_4.jpg
+10164,047_OS_1_GA_6x6_SSOCT_1_5.jpg,5,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_5.jpg
+10238,047_OS_1_GA_6x6_SSOCT_1_6.jpg,6,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_6.jpg
+10492,047_OS_1_GA_6x6_SSOCT_1_7.jpg,7,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_7.jpg
+10410,047_OS_1_GA_6x6_SSOCT_1_8.jpg,8,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_8.jpg
+10017,047_OS_1_GA_6x6_SSOCT_1_9.jpg,9,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_9.jpg
+10395,047_OS_1_GA_6x6_SSOCT_1_10.jpg,10,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_10.jpg
+10059,047_OS_1_GA_6x6_SSOCT_1_11.jpg,11,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_11.jpg
+10357,047_OS_1_GA_6x6_SSOCT_1_12.jpg,12,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_12.jpg
+10340,047_OS_1_GA_6x6_SSOCT_1_13.jpg,13,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_13.jpg
+10273,047_OS_1_GA_6x6_SSOCT_1_14.jpg,14,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_14.jpg
+10170,047_OS_1_GA_6x6_SSOCT_1_15.jpg,15,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_15.jpg
+10103,047_OS_1_GA_6x6_SSOCT_1_16.jpg,16,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_16.jpg
+10117,047_OS_1_GA_6x6_SSOCT_1_17.jpg,17,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_17.jpg
+10078,047_OS_1_GA_6x6_SSOCT_1_18.jpg,18,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_18.jpg
+10055,047_OS_1_GA_6x6_SSOCT_1_19.jpg,19,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_19.jpg
+10450,047_OS_1_GA_6x6_SSOCT_1_20.jpg,20,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_20.jpg
+10414,047_OS_1_GA_6x6_SSOCT_1_21.jpg,21,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_21.jpg
+10372,047_OS_1_GA_6x6_SSOCT_1_22.jpg,22,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_22.jpg
+10115,047_OS_1_GA_6x6_SSOCT_1_23.jpg,23,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_23.jpg
+10057,047_OS_1_GA_6x6_SSOCT_1_24.jpg,24,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_24.jpg
+10262,047_OS_1_GA_6x6_SSOCT_1_25.jpg,25,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_25.jpg
+10064,047_OS_1_GA_6x6_SSOCT_1_26.jpg,26,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_26.jpg
+10236,047_OS_1_GA_6x6_SSOCT_1_27.jpg,27,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_27.jpg
+10279,047_OS_1_GA_6x6_SSOCT_1_28.jpg,28,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_28.jpg
+10177,047_OS_1_GA_6x6_SSOCT_1_29.jpg,29,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_29.jpg
+10188,047_OS_1_GA_6x6_SSOCT_1_30.jpg,30,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_30.jpg
+10043,047_OS_1_GA_6x6_SSOCT_1_31.jpg,31,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_31.jpg
+10339,047_OS_1_GA_6x6_SSOCT_1_32.jpg,32,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_32.jpg
+10312,047_OS_1_GA_6x6_SSOCT_1_33.jpg,33,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_33.jpg
+10435,047_OS_1_GA_6x6_SSOCT_1_34.jpg,34,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_34.jpg
+10264,047_OS_1_GA_6x6_SSOCT_1_35.jpg,35,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_35.jpg
+10077,047_OS_1_GA_6x6_SSOCT_1_36.jpg,36,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_36.jpg
+10025,047_OS_1_GA_6x6_SSOCT_1_37.jpg,37,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_37.jpg
+10328,047_OS_1_GA_6x6_SSOCT_1_38.jpg,38,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_38.jpg
+10068,047_OS_1_GA_6x6_SSOCT_1_39.jpg,39,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_39.jpg
+10411,047_OS_1_GA_6x6_SSOCT_1_40.jpg,40,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_40.jpg
+10122,047_OS_1_GA_6x6_SSOCT_1_41.jpg,41,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_41.jpg
+10217,047_OS_1_GA_6x6_SSOCT_1_42.jpg,42,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_42.jpg
+10329,047_OS_1_GA_6x6_SSOCT_1_43.jpg,43,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_43.jpg
+10075,047_OS_1_GA_6x6_SSOCT_1_44.jpg,44,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_44.jpg
+10156,047_OS_1_GA_6x6_SSOCT_1_45.jpg,45,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_45.jpg
+10020,047_OS_1_GA_6x6_SSOCT_1_46.jpg,46,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_46.jpg
+10204,047_OS_1_GA_6x6_SSOCT_1_47.jpg,47,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_47.jpg
+10035,047_OS_1_GA_6x6_SSOCT_1_48.jpg,48,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_48.jpg
+10109,047_OS_1_GA_6x6_SSOCT_1_49.jpg,49,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_49.jpg
+10193,047_OS_1_GA_6x6_SSOCT_1_50.jpg,50,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_50.jpg
+10070,047_OS_1_GA_6x6_SSOCT_1_51.jpg,51,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_51.jpg
+10151,047_OS_1_GA_6x6_SSOCT_1_52.jpg,52,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_52.jpg
+10252,047_OS_1_GA_6x6_SSOCT_1_53.jpg,53,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_53.jpg
+10379,047_OS_1_GA_6x6_SSOCT_1_54.jpg,54,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_54.jpg
+10281,047_OS_1_GA_6x6_SSOCT_1_55.jpg,55,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_55.jpg
+10402,047_OS_1_GA_6x6_SSOCT_1_56.jpg,56,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_56.jpg
+10307,047_OS_1_GA_6x6_SSOCT_1_57.jpg,57,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_57.jpg
+10119,047_OS_1_GA_6x6_SSOCT_1_58.jpg,58,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_58.jpg
+10314,047_OS_1_GA_6x6_SSOCT_1_59.jpg,59,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_59.jpg
+10053,047_OS_1_GA_6x6_SSOCT_1_60.jpg,60,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_60.jpg
+10206,047_OS_1_GA_6x6_SSOCT_1_61.jpg,61,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_61.jpg
+10159,047_OS_1_GA_6x6_SSOCT_1_62.jpg,62,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_62.jpg
+10022,047_OS_1_GA_6x6_SSOCT_1_63.jpg,63,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_63.jpg
+10403,047_OS_1_GA_6x6_SSOCT_1_64.jpg,64,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_64.jpg
+10120,047_OS_1_GA_6x6_SSOCT_1_65.jpg,65,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_65.jpg
+10337,047_OS_1_GA_6x6_SSOCT_1_66.jpg,66,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_66.jpg
+10313,047_OS_1_GA_6x6_SSOCT_1_67.jpg,67,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_67.jpg
+10282,047_OS_1_GA_6x6_SSOCT_1_68.jpg,68,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_68.jpg
+10090,047_OS_1_GA_6x6_SSOCT_1_69.jpg,69,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_69.jpg
+10400,047_OS_1_GA_6x6_SSOCT_1_70.jpg,70,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_70.jpg
+10494,047_OS_1_GA_6x6_SSOCT_1_71.jpg,71,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_71.jpg
+10044,047_OS_1_GA_6x6_SSOCT_1_72.jpg,72,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_72.jpg
+10367,047_OS_1_GA_6x6_SSOCT_1_73.jpg,73,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_73.jpg
+10192,047_OS_1_GA_6x6_SSOCT_1_74.jpg,74,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_74.jpg
+10310,047_OS_1_GA_6x6_SSOCT_1_75.jpg,75,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_75.jpg
+10300,047_OS_1_GA_6x6_SSOCT_1_76.jpg,76,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_76.jpg
+10118,047_OS_1_GA_6x6_SSOCT_1_77.jpg,77,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_77.jpg
+10065,047_OS_1_GA_6x6_SSOCT_1_78.jpg,78,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_78.jpg
+10138,047_OS_1_GA_6x6_SSOCT_1_79.jpg,79,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_79.jpg
+10386,047_OS_1_GA_6x6_SSOCT_1_80.jpg,80,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_80.jpg
+10432,047_OS_1_GA_6x6_SSOCT_1_81.jpg,81,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_81.jpg
+10224,047_OS_1_GA_6x6_SSOCT_1_82.jpg,82,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_82.jpg
+10355,047_OS_1_GA_6x6_SSOCT_1_83.jpg,83,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_83.jpg
+10130,047_OS_1_GA_6x6_SSOCT_1_84.jpg,84,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_84.jpg
+10050,047_OS_1_GA_6x6_SSOCT_1_85.jpg,85,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_85.jpg
+10215,047_OS_1_GA_6x6_SSOCT_1_86.jpg,86,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_86.jpg
+10008,047_OS_1_GA_6x6_SSOCT_1_87.jpg,87,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_87.jpg
+10327,047_OS_1_GA_6x6_SSOCT_1_88.jpg,88,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_88.jpg
+10333,047_OS_1_GA_6x6_SSOCT_1_89.jpg,89,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_89.jpg
+10108,047_OS_1_GA_6x6_SSOCT_1_90.jpg,90,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_90.jpg
+10244,047_OS_1_GA_6x6_SSOCT_1_91.jpg,91,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_91.jpg
+10315,047_OS_1_GA_6x6_SSOCT_1_92.jpg,92,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_92.jpg
+10040,047_OS_1_GA_6x6_SSOCT_1_93.jpg,93,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_93.jpg
+10132,047_OS_1_GA_6x6_SSOCT_1_94.jpg,94,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_94.jpg
+10458,047_OS_1_GA_6x6_SSOCT_1_95.jpg,95,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_95.jpg
+10023,047_OS_1_GA_6x6_SSOCT_1_96.jpg,96,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_96.jpg
+10013,047_OS_1_GA_6x6_SSOCT_1_97.jpg,97,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_97.jpg
+10107,047_OS_1_GA_6x6_SSOCT_1_98.jpg,98,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_98.jpg
+10424,047_OS_1_GA_6x6_SSOCT_1_99.jpg,99,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_99.jpg
+10099,047_OS_1_GA_6x6_SSOCT_1_100.jpg,100,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_100.jpg
+10129,047_OS_1_GA_6x6_SSOCT_1_101.jpg,101,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_101.jpg
+10037,047_OS_1_GA_6x6_SSOCT_1_102.jpg,102,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_102.jpg
+10287,047_OS_1_GA_6x6_SSOCT_1_103.jpg,103,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_103.jpg
+10080,047_OS_1_GA_6x6_SSOCT_1_104.jpg,104,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_104.jpg
+10000,047_OS_1_GA_6x6_SSOCT_1_105.jpg,105,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_105.jpg
+10487,047_OS_1_GA_6x6_SSOCT_1_106.jpg,106,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_106.jpg
+10309,047_OS_1_GA_6x6_SSOCT_1_107.jpg,107,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_107.jpg
+10465,047_OS_1_GA_6x6_SSOCT_1_108.jpg,108,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_108.jpg
+10219,047_OS_1_GA_6x6_SSOCT_1_109.jpg,109,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_109.jpg
+10493,047_OS_1_GA_6x6_SSOCT_1_110.jpg,110,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_110.jpg
+10326,047_OS_1_GA_6x6_SSOCT_1_111.jpg,111,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_111.jpg
+10072,047_OS_1_GA_6x6_SSOCT_1_112.jpg,112,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_112.jpg
+10106,047_OS_1_GA_6x6_SSOCT_1_113.jpg,113,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_113.jpg
+10425,047_OS_1_GA_6x6_SSOCT_1_114.jpg,114,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_114.jpg
+10011,047_OS_1_GA_6x6_SSOCT_1_115.jpg,115,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_115.jpg
+10046,047_OS_1_GA_6x6_SSOCT_1_116.jpg,116,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_116.jpg
+10275,047_OS_1_GA_6x6_SSOCT_1_117.jpg,117,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_117.jpg
+10277,047_OS_1_GA_6x6_SSOCT_1_118.jpg,118,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_118.jpg
+10321,047_OS_1_GA_6x6_SSOCT_1_119.jpg,119,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_119.jpg
+10485,047_OS_1_GA_6x6_SSOCT_1_120.jpg,120,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_120.jpg
+10370,047_OS_1_GA_6x6_SSOCT_1_121.jpg,121,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_121.jpg
+10203,047_OS_1_GA_6x6_SSOCT_1_122.jpg,122,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_122.jpg
+10349,047_OS_1_GA_6x6_SSOCT_1_123.jpg,123,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_123.jpg
+10218,047_OS_1_GA_6x6_SSOCT_1_124.jpg,124,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_124.jpg
+10378,047_OS_1_GA_6x6_SSOCT_1_125.jpg,125,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_125.jpg
+10463,047_OS_1_GA_6x6_SSOCT_1_126.jpg,126,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_126.jpg
+10423,047_OS_1_GA_6x6_SSOCT_1_127.jpg,127,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_127.jpg
+10430,047_OS_1_GA_6x6_SSOCT_1_128.jpg,128,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_128.jpg
+10186,047_OS_1_GA_6x6_SSOCT_1_129.jpg,129,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_129.jpg
+10223,047_OS_1_GA_6x6_SSOCT_1_130.jpg,130,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_130.jpg
+10418,047_OS_1_GA_6x6_SSOCT_1_131.jpg,131,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_131.jpg
+10087,047_OS_1_GA_6x6_SSOCT_1_132.jpg,132,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_132.jpg
+10467,047_OS_1_GA_6x6_SSOCT_1_133.jpg,133,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_133.jpg
+10086,047_OS_1_GA_6x6_SSOCT_1_134.jpg,134,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_134.jpg
+10237,047_OS_1_GA_6x6_SSOCT_1_135.jpg,135,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_135.jpg
+10230,047_OS_1_GA_6x6_SSOCT_1_136.jpg,136,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_136.jpg
+10332,047_OS_1_GA_6x6_SSOCT_1_137.jpg,137,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_137.jpg
+10153,047_OS_1_GA_6x6_SSOCT_1_138.jpg,138,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_138.jpg
+10451,047_OS_1_GA_6x6_SSOCT_1_139.jpg,139,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_139.jpg
+10258,047_OS_1_GA_6x6_SSOCT_1_140.jpg,140,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_140.jpg
+10198,047_OS_1_GA_6x6_SSOCT_1_141.jpg,141,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_141.jpg
+10105,047_OS_1_GA_6x6_SSOCT_1_142.jpg,142,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_142.jpg
+10475,047_OS_1_GA_6x6_SSOCT_1_143.jpg,143,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_143.jpg
+10407,047_OS_1_GA_6x6_SSOCT_1_144.jpg,144,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_144.jpg
+10390,047_OS_1_GA_6x6_SSOCT_1_145.jpg,145,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_145.jpg
+10408,047_OS_1_GA_6x6_SSOCT_1_146.jpg,146,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_146.jpg
+10136,047_OS_1_GA_6x6_SSOCT_1_147.jpg,147,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_147.jpg
+10440,047_OS_1_GA_6x6_SSOCT_1_148.jpg,148,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_148.jpg
+10256,047_OS_1_GA_6x6_SSOCT_1_149.jpg,149,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_149.jpg
+10271,047_OS_1_GA_6x6_SSOCT_1_150.jpg,150,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_150.jpg
+10160,047_OS_1_GA_6x6_SSOCT_1_151.jpg,151,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_151.jpg
+10116,047_OS_1_GA_6x6_SSOCT_1_152.jpg,152,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_152.jpg
+10189,047_OS_1_GA_6x6_SSOCT_1_153.jpg,153,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_153.jpg
+10478,047_OS_1_GA_6x6_SSOCT_1_154.jpg,154,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_154.jpg
+10114,047_OS_1_GA_6x6_SSOCT_1_155.jpg,155,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_155.jpg
+10015,047_OS_1_GA_6x6_SSOCT_1_156.jpg,156,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_156.jpg
+10443,047_OS_1_GA_6x6_SSOCT_1_157.jpg,157,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_157.jpg
+10125,047_OS_1_GA_6x6_SSOCT_1_158.jpg,158,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_158.jpg
+10066,047_OS_1_GA_6x6_SSOCT_1_159.jpg,159,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_159.jpg
+10383,047_OS_1_GA_6x6_SSOCT_1_160.jpg,160,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_160.jpg
+10234,047_OS_1_GA_6x6_SSOCT_1_161.jpg,161,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_161.jpg
+10229,047_OS_1_GA_6x6_SSOCT_1_162.jpg,162,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_162.jpg
+10334,047_OS_1_GA_6x6_SSOCT_1_163.jpg,163,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_163.jpg
+10366,047_OS_1_GA_6x6_SSOCT_1_164.jpg,164,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_164.jpg
+10032,047_OS_1_GA_6x6_SSOCT_1_165.jpg,165,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_165.jpg
+10359,047_OS_1_GA_6x6_SSOCT_1_166.jpg,166,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_166.jpg
+10242,047_OS_1_GA_6x6_SSOCT_1_167.jpg,167,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_167.jpg
+10183,047_OS_1_GA_6x6_SSOCT_1_168.jpg,168,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_168.jpg
+10082,047_OS_1_GA_6x6_SSOCT_1_169.jpg,169,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_169.jpg
+10030,047_OS_1_GA_6x6_SSOCT_1_170.jpg,170,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_170.jpg
+10250,047_OS_1_GA_6x6_SSOCT_1_171.jpg,171,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_171.jpg
+10468,047_OS_1_GA_6x6_SSOCT_1_172.jpg,172,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_172.jpg
+10317,047_OS_1_GA_6x6_SSOCT_1_173.jpg,173,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_173.jpg
+10335,047_OS_1_GA_6x6_SSOCT_1_174.jpg,174,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_174.jpg
+10474,047_OS_1_GA_6x6_SSOCT_1_175.jpg,175,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_175.jpg
+10495,047_OS_1_GA_6x6_SSOCT_1_176.jpg,176,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_176.jpg
+10285,047_OS_1_GA_6x6_SSOCT_1_177.jpg,177,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_177.jpg
+10175,047_OS_1_GA_6x6_SSOCT_1_178.jpg,178,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,S - no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_178.jpg
+10459,047_OS_1_GA_6x6_SSOCT_1_179.jpg,179,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_179.jpg
+10191,047_OS_1_GA_6x6_SSOCT_1_180.jpg,180,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_180.jpg
+10168,047_OS_1_GA_6x6_SSOCT_1_181.jpg,181,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_181.jpg
+10006,047_OS_1_GA_6x6_SSOCT_1_182.jpg,182,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_182.jpg
+10405,047_OS_1_GA_6x6_SSOCT_1_183.jpg,183,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_183.jpg
+10126,047_OS_1_GA_6x6_SSOCT_1_184.jpg,184,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_184.jpg
+10232,047_OS_1_GA_6x6_SSOCT_1_185.jpg,185,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_185.jpg
+10209,047_OS_1_GA_6x6_SSOCT_1_186.jpg,186,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_186.jpg
+10381,047_OS_1_GA_6x6_SSOCT_1_187.jpg,187,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_187.jpg
+10323,047_OS_1_GA_6x6_SSOCT_1_188.jpg,188,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_188.jpg
+10002,047_OS_1_GA_6x6_SSOCT_1_189.jpg,189,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_189.jpg
+10289,047_OS_1_GA_6x6_SSOCT_1_190.jpg,190,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_190.jpg
+10456,047_OS_1_GA_6x6_SSOCT_1_191.jpg,191,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_191.jpg
+10437,047_OS_1_GA_6x6_SSOCT_1_192.jpg,192,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_192.jpg
+10413,047_OS_1_GA_6x6_SSOCT_1_193.jpg,193,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_193.jpg
+10142,047_OS_1_GA_6x6_SSOCT_1_194.jpg,194,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_194.jpg
+10324,047_OS_1_GA_6x6_SSOCT_1_195.jpg,195,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_195.jpg
+10260,047_OS_1_GA_6x6_SSOCT_1_196.jpg,196,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_196.jpg
+10254,047_OS_1_GA_6x6_SSOCT_1_197.jpg,197,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_197.jpg
+10358,047_OS_1_GA_6x6_SSOCT_1_198.jpg,198,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_198.jpg
+10220,047_OS_1_GA_6x6_SSOCT_1_199.jpg,199,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_199.jpg
+10320,047_OS_1_GA_6x6_SSOCT_1_200.jpg,200,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_200.jpg
+10247,047_OS_1_GA_6x6_SSOCT_1_201.jpg,201,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_201.jpg
+10079,047_OS_1_GA_6x6_SSOCT_1_202.jpg,202,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_202.jpg
+10442,047_OS_1_GA_6x6_SSOCT_1_203.jpg,203,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_203.jpg
+10104,047_OS_1_GA_6x6_SSOCT_1_204.jpg,204,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_204.jpg
+10058,047_OS_1_GA_6x6_SSOCT_1_205.jpg,205,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_205.jpg
+10233,047_OS_1_GA_6x6_SSOCT_1_206.jpg,206,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_206.jpg
+10110,047_OS_1_GA_6x6_SSOCT_1_207.jpg,207,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_207.jpg
+10361,047_OS_1_GA_6x6_SSOCT_1_208.jpg,208,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_208.jpg
+10392,047_OS_1_GA_6x6_SSOCT_1_209.jpg,209,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_209.jpg
+10347,047_OS_1_GA_6x6_SSOCT_1_210.jpg,210,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_210.jpg
+10346,047_OS_1_GA_6x6_SSOCT_1_211.jpg,211,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_211.jpg
+10420,047_OS_1_GA_6x6_SSOCT_1_212.jpg,212,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_212.jpg
+10491,047_OS_1_GA_6x6_SSOCT_1_213.jpg,213,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_213.jpg
+10095,047_OS_1_GA_6x6_SSOCT_1_214.jpg,214,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_214.jpg
+10062,047_OS_1_GA_6x6_SSOCT_1_215.jpg,215,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_215.jpg
+10211,047_OS_1_GA_6x6_SSOCT_1_216.jpg,216,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_216.jpg
+10269,047_OS_1_GA_6x6_SSOCT_1_217.jpg,217,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_217.jpg
+10149,047_OS_1_GA_6x6_SSOCT_1_218.jpg,218,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_218.jpg
+10052,047_OS_1_GA_6x6_SSOCT_1_219.jpg,219,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_219.jpg
+10497,047_OS_1_GA_6x6_SSOCT_1_220.jpg,220,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_220.jpg
+10039,047_OS_1_GA_6x6_SSOCT_1_221.jpg,221,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_221.jpg
+10226,047_OS_1_GA_6x6_SSOCT_1_222.jpg,222,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_222.jpg
+10001,047_OS_1_GA_6x6_SSOCT_1_223.jpg,223,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_223.jpg
+10444,047_OS_1_GA_6x6_SSOCT_1_224.jpg,224,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_224.jpg
+10143,047_OS_1_GA_6x6_SSOCT_1_225.jpg,225,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_225.jpg
+10154,047_OS_1_GA_6x6_SSOCT_1_226.jpg,226,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_226.jpg
+10026,047_OS_1_GA_6x6_SSOCT_1_227.jpg,227,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_227.jpg
+10139,047_OS_1_GA_6x6_SSOCT_1_228.jpg,228,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_228.jpg
+10179,047_OS_1_GA_6x6_SSOCT_1_229.jpg,229,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_229.jpg
+10155,047_OS_1_GA_6x6_SSOCT_1_230.jpg,230,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_230.jpg
+10094,047_OS_1_GA_6x6_SSOCT_1_231.jpg,231,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_231.jpg
+10466,047_OS_1_GA_6x6_SSOCT_1_232.jpg,232,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_232.jpg
+10266,047_OS_1_GA_6x6_SSOCT_1_233.jpg,233,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_233.jpg
+10081,047_OS_1_GA_6x6_SSOCT_1_234.jpg,234,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_234.jpg
+10295,047_OS_1_GA_6x6_SSOCT_1_235.jpg,235,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_235.jpg
+10231,047_OS_1_GA_6x6_SSOCT_1_236.jpg,236,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_236.jpg
+10128,047_OS_1_GA_6x6_SSOCT_1_237.jpg,237,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_237.jpg
+10330,047_OS_1_GA_6x6_SSOCT_1_238.jpg,238,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_238.jpg
+10433,047_OS_1_GA_6x6_SSOCT_1_239.jpg,239,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,start,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_239.jpg
 10140,047_OS_1_GA_6x6_SSOCT_1_240.jpg,240,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,deepest,2,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_240.jpg
 10394,047_OS_1_GA_6x6_SSOCT_1_241.jpg,241,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,deepest,2,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_241.jpg
 10185,047_OS_1_GA_6x6_SSOCT_1_242.jpg,242,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,deepest,2,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_242.jpg
@@ -277,225 +277,225 @@
 10455,047_OS_1_GA_6x6_SSOCT_1_276.jpg,276,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,deepest,2,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_276.jpg
 10345,047_OS_1_GA_6x6_SSOCT_1_277.jpg,277,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,deepest,2,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_277.jpg
 10427,047_OS_1_GA_6x6_SSOCT_1_278.jpg,278,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,deepest,2,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_278.jpg
-10284,047_OS_1_GA_6x6_SSOCT_1_279.jpg,279,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_279.jpg
-10298,047_OS_1_GA_6x6_SSOCT_1_280.jpg,280,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_280.jpg
-10063,047_OS_1_GA_6x6_SSOCT_1_281.jpg,281,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_281.jpg
-10365,047_OS_1_GA_6x6_SSOCT_1_282.jpg,282,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_282.jpg
-10428,047_OS_1_GA_6x6_SSOCT_1_283.jpg,283,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_283.jpg
-10071,047_OS_1_GA_6x6_SSOCT_1_284.jpg,284,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_284.jpg
-10270,047_OS_1_GA_6x6_SSOCT_1_285.jpg,285,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_285.jpg
-10245,047_OS_1_GA_6x6_SSOCT_1_286.jpg,286,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_286.jpg
-10429,047_OS_1_GA_6x6_SSOCT_1_287.jpg,287,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_287.jpg
-10348,047_OS_1_GA_6x6_SSOCT_1_288.jpg,288,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_288.jpg
-10014,047_OS_1_GA_6x6_SSOCT_1_289.jpg,289,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_289.jpg
-10316,047_OS_1_GA_6x6_SSOCT_1_290.jpg,290,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_290.jpg
-10434,047_OS_1_GA_6x6_SSOCT_1_291.jpg,291,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_291.jpg
-10255,047_OS_1_GA_6x6_SSOCT_1_292.jpg,292,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_292.jpg
-10212,047_OS_1_GA_6x6_SSOCT_1_293.jpg,293,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_293.jpg
-10387,047_OS_1_GA_6x6_SSOCT_1_294.jpg,294,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_294.jpg
-10343,047_OS_1_GA_6x6_SSOCT_1_295.jpg,295,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_295.jpg
-10341,047_OS_1_GA_6x6_SSOCT_1_296.jpg,296,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_296.jpg
-10426,047_OS_1_GA_6x6_SSOCT_1_297.jpg,297,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_297.jpg
-10354,047_OS_1_GA_6x6_SSOCT_1_298.jpg,298,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_298.jpg
-10291,047_OS_1_GA_6x6_SSOCT_1_299.jpg,299,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_299.jpg
-10447,047_OS_1_GA_6x6_SSOCT_1_300.jpg,300,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_300.jpg
-10436,047_OS_1_GA_6x6_SSOCT_1_301.jpg,301,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_301.jpg
-10253,047_OS_1_GA_6x6_SSOCT_1_302.jpg,302,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_302.jpg
-10375,047_OS_1_GA_6x6_SSOCT_1_303.jpg,303,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_303.jpg
-10144,047_OS_1_GA_6x6_SSOCT_1_304.jpg,304,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_304.jpg
-10133,047_OS_1_GA_6x6_SSOCT_1_305.jpg,305,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_305.jpg
-10069,047_OS_1_GA_6x6_SSOCT_1_306.jpg,306,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_306.jpg
-10417,047_OS_1_GA_6x6_SSOCT_1_307.jpg,307,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_307.jpg
-10389,047_OS_1_GA_6x6_SSOCT_1_308.jpg,308,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_308.jpg
-10325,047_OS_1_GA_6x6_SSOCT_1_309.jpg,309,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_309.jpg
-10131,047_OS_1_GA_6x6_SSOCT_1_310.jpg,310,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_310.jpg
-10297,047_OS_1_GA_6x6_SSOCT_1_311.jpg,311,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_311.jpg
-10003,047_OS_1_GA_6x6_SSOCT_1_312.jpg,312,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_312.jpg
-10360,047_OS_1_GA_6x6_SSOCT_1_313.jpg,313,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_313.jpg
-10374,047_OS_1_GA_6x6_SSOCT_1_314.jpg,314,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_314.jpg
-10342,047_OS_1_GA_6x6_SSOCT_1_315.jpg,315,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_315.jpg
-10152,047_OS_1_GA_6x6_SSOCT_1_316.jpg,316,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_316.jpg
-10280,047_OS_1_GA_6x6_SSOCT_1_317.jpg,317,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_317.jpg
-10205,047_OS_1_GA_6x6_SSOCT_1_318.jpg,318,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_318.jpg
-10167,047_OS_1_GA_6x6_SSOCT_1_319.jpg,319,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_319.jpg
-10184,047_OS_1_GA_6x6_SSOCT_1_320.jpg,320,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_320.jpg
-10344,047_OS_1_GA_6x6_SSOCT_1_321.jpg,321,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_321.jpg
-10227,047_OS_1_GA_6x6_SSOCT_1_322.jpg,322,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_322.jpg
-10422,047_OS_1_GA_6x6_SSOCT_1_323.jpg,323,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_323.jpg
-10454,047_OS_1_GA_6x6_SSOCT_1_324.jpg,324,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_324.jpg
-10073,047_OS_1_GA_6x6_SSOCT_1_325.jpg,325,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_325.jpg
-10113,047_OS_1_GA_6x6_SSOCT_1_326.jpg,326,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_326.jpg
-10214,047_OS_1_GA_6x6_SSOCT_1_327.jpg,327,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_327.jpg
-10404,047_OS_1_GA_6x6_SSOCT_1_328.jpg,328,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_328.jpg
-10100,047_OS_1_GA_6x6_SSOCT_1_329.jpg,329,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_329.jpg
-10352,047_OS_1_GA_6x6_SSOCT_1_330.jpg,330,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_330.jpg
-10272,047_OS_1_GA_6x6_SSOCT_1_331.jpg,331,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_331.jpg
-10045,047_OS_1_GA_6x6_SSOCT_1_332.jpg,332,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_332.jpg
-10196,047_OS_1_GA_6x6_SSOCT_1_333.jpg,333,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_333.jpg
-10190,047_OS_1_GA_6x6_SSOCT_1_334.jpg,334,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_334.jpg
-10248,047_OS_1_GA_6x6_SSOCT_1_335.jpg,335,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_335.jpg
-10461,047_OS_1_GA_6x6_SSOCT_1_336.jpg,336,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_336.jpg
-10174,047_OS_1_GA_6x6_SSOCT_1_337.jpg,337,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_337.jpg
-10498,047_OS_1_GA_6x6_SSOCT_1_338.jpg,338,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_338.jpg
-10364,047_OS_1_GA_6x6_SSOCT_1_339.jpg,339,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_339.jpg
-10083,047_OS_1_GA_6x6_SSOCT_1_340.jpg,340,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_340.jpg
-10182,047_OS_1_GA_6x6_SSOCT_1_341.jpg,341,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_341.jpg
-10421,047_OS_1_GA_6x6_SSOCT_1_342.jpg,342,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_342.jpg
-10239,047_OS_1_GA_6x6_SSOCT_1_343.jpg,343,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_343.jpg
-10169,047_OS_1_GA_6x6_SSOCT_1_344.jpg,344,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_344.jpg
-10241,047_OS_1_GA_6x6_SSOCT_1_345.jpg,345,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_345.jpg
-10007,047_OS_1_GA_6x6_SSOCT_1_346.jpg,346,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_346.jpg
-10141,047_OS_1_GA_6x6_SSOCT_1_347.jpg,347,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_347.jpg
-10385,047_OS_1_GA_6x6_SSOCT_1_348.jpg,348,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_348.jpg
-10265,047_OS_1_GA_6x6_SSOCT_1_349.jpg,349,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_349.jpg
-10161,047_OS_1_GA_6x6_SSOCT_1_350.jpg,350,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_350.jpg
-10005,047_OS_1_GA_6x6_SSOCT_1_351.jpg,351,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_351.jpg
-10431,047_OS_1_GA_6x6_SSOCT_1_352.jpg,352,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_352.jpg
-10460,047_OS_1_GA_6x6_SSOCT_1_353.jpg,353,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_353.jpg
-10101,047_OS_1_GA_6x6_SSOCT_1_354.jpg,354,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_354.jpg
-10351,047_OS_1_GA_6x6_SSOCT_1_355.jpg,355,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,progression,1,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_355.jpg
-10362,047_OS_1_GA_6x6_SSOCT_1_356.jpg,356,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_356.jpg
-10121,047_OS_1_GA_6x6_SSOCT_1_357.jpg,357,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_357.jpg
-10240,047_OS_1_GA_6x6_SSOCT_1_358.jpg,358,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_358.jpg
-10228,047_OS_1_GA_6x6_SSOCT_1_359.jpg,359,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_359.jpg
-10009,047_OS_1_GA_6x6_SSOCT_1_360.jpg,360,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_360.jpg
-10222,047_OS_1_GA_6x6_SSOCT_1_361.jpg,361,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_361.jpg
-10296,047_OS_1_GA_6x6_SSOCT_1_362.jpg,362,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_362.jpg
-10004,047_OS_1_GA_6x6_SSOCT_1_363.jpg,363,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_363.jpg
-10112,047_OS_1_GA_6x6_SSOCT_1_364.jpg,364,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_364.jpg
-10172,047_OS_1_GA_6x6_SSOCT_1_365.jpg,365,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_365.jpg
-10259,047_OS_1_GA_6x6_SSOCT_1_366.jpg,366,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_366.jpg
-10048,047_OS_1_GA_6x6_SSOCT_1_367.jpg,367,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_367.jpg
-10396,047_OS_1_GA_6x6_SSOCT_1_368.jpg,368,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_368.jpg
-10137,047_OS_1_GA_6x6_SSOCT_1_369.jpg,369,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_369.jpg
-10293,047_OS_1_GA_6x6_SSOCT_1_370.jpg,370,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_370.jpg
-10445,047_OS_1_GA_6x6_SSOCT_1_371.jpg,371,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_371.jpg
-10147,047_OS_1_GA_6x6_SSOCT_1_372.jpg,372,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_372.jpg
-10207,047_OS_1_GA_6x6_SSOCT_1_373.jpg,373,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_373.jpg
-10453,047_OS_1_GA_6x6_SSOCT_1_374.jpg,374,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_374.jpg
-10089,047_OS_1_GA_6x6_SSOCT_1_375.jpg,375,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_375.jpg
-10074,047_OS_1_GA_6x6_SSOCT_1_376.jpg,376,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_376.jpg
-10371,047_OS_1_GA_6x6_SSOCT_1_377.jpg,377,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_377.jpg
-10376,047_OS_1_GA_6x6_SSOCT_1_378.jpg,378,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_378.jpg
-10092,047_OS_1_GA_6x6_SSOCT_1_379.jpg,379,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_379.jpg
-10042,047_OS_1_GA_6x6_SSOCT_1_380.jpg,380,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_380.jpg
-10415,047_OS_1_GA_6x6_SSOCT_1_381.jpg,381,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_381.jpg
-10176,047_OS_1_GA_6x6_SSOCT_1_382.jpg,382,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_382.jpg
-10449,047_OS_1_GA_6x6_SSOCT_1_383.jpg,383,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_383.jpg
-10051,047_OS_1_GA_6x6_SSOCT_1_384.jpg,384,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_384.jpg
-10305,047_OS_1_GA_6x6_SSOCT_1_385.jpg,385,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_385.jpg
-10486,047_OS_1_GA_6x6_SSOCT_1_386.jpg,386,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_386.jpg
-10261,047_OS_1_GA_6x6_SSOCT_1_387.jpg,387,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_387.jpg
-10049,047_OS_1_GA_6x6_SSOCT_1_388.jpg,388,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_388.jpg
-10393,047_OS_1_GA_6x6_SSOCT_1_389.jpg,389,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_389.jpg
-10016,047_OS_1_GA_6x6_SSOCT_1_390.jpg,390,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_390.jpg
-10303,047_OS_1_GA_6x6_SSOCT_1_391.jpg,391,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_391.jpg
-10319,047_OS_1_GA_6x6_SSOCT_1_392.jpg,392,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_392.jpg
-10484,047_OS_1_GA_6x6_SSOCT_1_393.jpg,393,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_393.jpg
-10308,047_OS_1_GA_6x6_SSOCT_1_394.jpg,394,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_394.jpg
-10249,047_OS_1_GA_6x6_SSOCT_1_395.jpg,395,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_395.jpg
-10127,047_OS_1_GA_6x6_SSOCT_1_396.jpg,396,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_396.jpg
-10067,047_OS_1_GA_6x6_SSOCT_1_397.jpg,397,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_397.jpg
-10012,047_OS_1_GA_6x6_SSOCT_1_398.jpg,398,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_398.jpg
-10489,047_OS_1_GA_6x6_SSOCT_1_399.jpg,399,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_399.jpg
-10499,047_OS_1_GA_6x6_SSOCT_1_400.jpg,400,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_400.jpg
-10225,047_OS_1_GA_6x6_SSOCT_1_401.jpg,401,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_401.jpg
-10180,047_OS_1_GA_6x6_SSOCT_1_402.jpg,402,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_402.jpg
-10178,047_OS_1_GA_6x6_SSOCT_1_403.jpg,403,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_403.jpg
-10276,047_OS_1_GA_6x6_SSOCT_1_404.jpg,404,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_404.jpg
-10061,047_OS_1_GA_6x6_SSOCT_1_405.jpg,405,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_405.jpg
-10034,047_OS_1_GA_6x6_SSOCT_1_406.jpg,406,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_406.jpg
-10384,047_OS_1_GA_6x6_SSOCT_1_407.jpg,407,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_407.jpg
-10111,047_OS_1_GA_6x6_SSOCT_1_408.jpg,408,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_408.jpg
-10135,047_OS_1_GA_6x6_SSOCT_1_409.jpg,409,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_409.jpg
-10278,047_OS_1_GA_6x6_SSOCT_1_410.jpg,410,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_410.jpg
-10283,047_OS_1_GA_6x6_SSOCT_1_411.jpg,411,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_411.jpg
-10024,047_OS_1_GA_6x6_SSOCT_1_412.jpg,412,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_412.jpg
-10047,047_OS_1_GA_6x6_SSOCT_1_413.jpg,413,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_413.jpg
-10031,047_OS_1_GA_6x6_SSOCT_1_414.jpg,414,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_414.jpg
-10412,047_OS_1_GA_6x6_SSOCT_1_415.jpg,415,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_415.jpg
-10373,047_OS_1_GA_6x6_SSOCT_1_416.jpg,416,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_416.jpg
-10033,047_OS_1_GA_6x6_SSOCT_1_417.jpg,417,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_417.jpg
-10406,047_OS_1_GA_6x6_SSOCT_1_418.jpg,418,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_418.jpg
-10201,047_OS_1_GA_6x6_SSOCT_1_419.jpg,419,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_419.jpg
-10473,047_OS_1_GA_6x6_SSOCT_1_420.jpg,420,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_420.jpg
-10318,047_OS_1_GA_6x6_SSOCT_1_421.jpg,421,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_421.jpg
-10482,047_OS_1_GA_6x6_SSOCT_1_422.jpg,422,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_422.jpg
-10476,047_OS_1_GA_6x6_SSOCT_1_423.jpg,423,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_423.jpg
-10368,047_OS_1_GA_6x6_SSOCT_1_424.jpg,424,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_424.jpg
-10187,047_OS_1_GA_6x6_SSOCT_1_425.jpg,425,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_425.jpg
-10388,047_OS_1_GA_6x6_SSOCT_1_426.jpg,426,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_426.jpg
-10452,047_OS_1_GA_6x6_SSOCT_1_427.jpg,427,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_427.jpg
-10036,047_OS_1_GA_6x6_SSOCT_1_428.jpg,428,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_428.jpg
-10173,047_OS_1_GA_6x6_SSOCT_1_429.jpg,429,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_429.jpg
-10210,047_OS_1_GA_6x6_SSOCT_1_430.jpg,430,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_430.jpg
-10471,047_OS_1_GA_6x6_SSOCT_1_431.jpg,431,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_431.jpg
-10331,047_OS_1_GA_6x6_SSOCT_1_432.jpg,432,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_432.jpg
-10146,047_OS_1_GA_6x6_SSOCT_1_433.jpg,433,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_433.jpg
-10263,047_OS_1_GA_6x6_SSOCT_1_434.jpg,434,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_434.jpg
-10163,047_OS_1_GA_6x6_SSOCT_1_435.jpg,435,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_435.jpg
-10123,047_OS_1_GA_6x6_SSOCT_1_436.jpg,436,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_436.jpg
-10181,047_OS_1_GA_6x6_SSOCT_1_437.jpg,437,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_437.jpg
-10299,047_OS_1_GA_6x6_SSOCT_1_438.jpg,438,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_438.jpg
-10200,047_OS_1_GA_6x6_SSOCT_1_439.jpg,439,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_439.jpg
-10257,047_OS_1_GA_6x6_SSOCT_1_440.jpg,440,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_440.jpg
-10377,047_OS_1_GA_6x6_SSOCT_1_441.jpg,441,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_441.jpg
-10019,047_OS_1_GA_6x6_SSOCT_1_442.jpg,442,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_442.jpg
-10208,047_OS_1_GA_6x6_SSOCT_1_443.jpg,443,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_443.jpg
-10097,047_OS_1_GA_6x6_SSOCT_1_444.jpg,444,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_444.jpg
-10338,047_OS_1_GA_6x6_SSOCT_1_445.jpg,445,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_445.jpg
-10171,047_OS_1_GA_6x6_SSOCT_1_446.jpg,446,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_446.jpg
-10251,047_OS_1_GA_6x6_SSOCT_1_447.jpg,447,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_447.jpg
-10480,047_OS_1_GA_6x6_SSOCT_1_448.jpg,448,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_448.jpg
-10199,047_OS_1_GA_6x6_SSOCT_1_449.jpg,449,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_449.jpg
-10470,047_OS_1_GA_6x6_SSOCT_1_450.jpg,450,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_450.jpg
-10162,047_OS_1_GA_6x6_SSOCT_1_451.jpg,451,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_451.jpg
-10157,047_OS_1_GA_6x6_SSOCT_1_452.jpg,452,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_452.jpg
-10085,047_OS_1_GA_6x6_SSOCT_1_453.jpg,453,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_453.jpg
-10195,047_OS_1_GA_6x6_SSOCT_1_454.jpg,454,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_454.jpg
-10419,047_OS_1_GA_6x6_SSOCT_1_455.jpg,455,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_455.jpg
-10041,047_OS_1_GA_6x6_SSOCT_1_456.jpg,456,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_456.jpg
-10221,047_OS_1_GA_6x6_SSOCT_1_457.jpg,457,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_457.jpg
-10488,047_OS_1_GA_6x6_SSOCT_1_458.jpg,458,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_458.jpg
-10350,047_OS_1_GA_6x6_SSOCT_1_459.jpg,459,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_459.jpg
-10274,047_OS_1_GA_6x6_SSOCT_1_460.jpg,460,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_460.jpg
-10462,047_OS_1_GA_6x6_SSOCT_1_461.jpg,461,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_461.jpg
-10150,047_OS_1_GA_6x6_SSOCT_1_462.jpg,462,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_462.jpg
-10469,047_OS_1_GA_6x6_SSOCT_1_463.jpg,463,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_463.jpg
-10496,047_OS_1_GA_6x6_SSOCT_1_464.jpg,464,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_464.jpg
-10448,047_OS_1_GA_6x6_SSOCT_1_465.jpg,465,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_465.jpg
-10166,047_OS_1_GA_6x6_SSOCT_1_466.jpg,466,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_466.jpg
-10027,047_OS_1_GA_6x6_SSOCT_1_467.jpg,467,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_467.jpg
-10481,047_OS_1_GA_6x6_SSOCT_1_468.jpg,468,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_468.jpg
-10028,047_OS_1_GA_6x6_SSOCT_1_469.jpg,469,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_469.jpg
-10356,047_OS_1_GA_6x6_SSOCT_1_470.jpg,470,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_470.jpg
-10235,047_OS_1_GA_6x6_SSOCT_1_471.jpg,471,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_471.jpg
-10479,047_OS_1_GA_6x6_SSOCT_1_472.jpg,472,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_472.jpg
-10213,047_OS_1_GA_6x6_SSOCT_1_473.jpg,473,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_473.jpg
-10134,047_OS_1_GA_6x6_SSOCT_1_474.jpg,474,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_474.jpg
-10409,047_OS_1_GA_6x6_SSOCT_1_475.jpg,475,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_475.jpg
-10102,047_OS_1_GA_6x6_SSOCT_1_476.jpg,476,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_476.jpg
-10401,047_OS_1_GA_6x6_SSOCT_1_477.jpg,477,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_477.jpg
-10306,047_OS_1_GA_6x6_SSOCT_1_478.jpg,478,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_478.jpg
-10416,047_OS_1_GA_6x6_SSOCT_1_479.jpg,479,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_479.jpg
-10457,047_OS_1_GA_6x6_SSOCT_1_480.jpg,480,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_480.jpg
-10399,047_OS_1_GA_6x6_SSOCT_1_481.jpg,481,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_481.jpg
-10197,047_OS_1_GA_6x6_SSOCT_1_482.jpg,482,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_482.jpg
-10446,047_OS_1_GA_6x6_SSOCT_1_483.jpg,483,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_483.jpg
-10483,047_OS_1_GA_6x6_SSOCT_1_484.jpg,484,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_484.jpg
-10093,047_OS_1_GA_6x6_SSOCT_1_485.jpg,485,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_485.jpg
-10158,047_OS_1_GA_6x6_SSOCT_1_486.jpg,486,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_486.jpg
-10336,047_OS_1_GA_6x6_SSOCT_1_487.jpg,487,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_487.jpg
-10391,047_OS_1_GA_6x6_SSOCT_1_488.jpg,488,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_488.jpg
-10096,047_OS_1_GA_6x6_SSOCT_1_489.jpg,489,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_489.jpg
-10145,047_OS_1_GA_6x6_SSOCT_1_490.jpg,490,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_490.jpg
-10246,047_OS_1_GA_6x6_SSOCT_1_491.jpg,491,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_491.jpg
-10302,047_OS_1_GA_6x6_SSOCT_1_492.jpg,492,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_492.jpg
-10076,047_OS_1_GA_6x6_SSOCT_1_493.jpg,493,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_493.jpg
-10091,047_OS_1_GA_6x6_SSOCT_1_494.jpg,494,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_494.jpg
-10292,047_OS_1_GA_6x6_SSOCT_1_495.jpg,495,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_495.jpg
-10038,047_OS_1_GA_6x6_SSOCT_1_496.jpg,496,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_496.jpg
-10369,047_OS_1_GA_6x6_SSOCT_1_497.jpg,497,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_497.jpg
-10398,047_OS_1_GA_6x6_SSOCT_1_498.jpg,498,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_498.jpg
-10397,047_OS_1_GA_6x6_SSOCT_1_499.jpg,499,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_499.jpg
-10124,047_OS_1_GA_6x6_SSOCT_1_500.jpg,500,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,no fovea,0,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_500.jpg
+10284,047_OS_1_GA_6x6_SSOCT_1_279.jpg,279,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_279.jpg
+10298,047_OS_1_GA_6x6_SSOCT_1_280.jpg,280,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_280.jpg
+10063,047_OS_1_GA_6x6_SSOCT_1_281.jpg,281,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_281.jpg
+10365,047_OS_1_GA_6x6_SSOCT_1_282.jpg,282,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_282.jpg
+10428,047_OS_1_GA_6x6_SSOCT_1_283.jpg,283,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_283.jpg
+10071,047_OS_1_GA_6x6_SSOCT_1_284.jpg,284,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_284.jpg
+10270,047_OS_1_GA_6x6_SSOCT_1_285.jpg,285,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_285.jpg
+10245,047_OS_1_GA_6x6_SSOCT_1_286.jpg,286,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_286.jpg
+10429,047_OS_1_GA_6x6_SSOCT_1_287.jpg,287,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_287.jpg
+10348,047_OS_1_GA_6x6_SSOCT_1_288.jpg,288,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_288.jpg
+10014,047_OS_1_GA_6x6_SSOCT_1_289.jpg,289,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_289.jpg
+10316,047_OS_1_GA_6x6_SSOCT_1_290.jpg,290,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_290.jpg
+10434,047_OS_1_GA_6x6_SSOCT_1_291.jpg,291,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_291.jpg
+10255,047_OS_1_GA_6x6_SSOCT_1_292.jpg,292,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_292.jpg
+10212,047_OS_1_GA_6x6_SSOCT_1_293.jpg,293,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_293.jpg
+10387,047_OS_1_GA_6x6_SSOCT_1_294.jpg,294,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_294.jpg
+10343,047_OS_1_GA_6x6_SSOCT_1_295.jpg,295,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_295.jpg
+10341,047_OS_1_GA_6x6_SSOCT_1_296.jpg,296,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_296.jpg
+10426,047_OS_1_GA_6x6_SSOCT_1_297.jpg,297,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_297.jpg
+10354,047_OS_1_GA_6x6_SSOCT_1_298.jpg,298,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_298.jpg
+10291,047_OS_1_GA_6x6_SSOCT_1_299.jpg,299,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_299.jpg
+10447,047_OS_1_GA_6x6_SSOCT_1_300.jpg,300,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_300.jpg
+10436,047_OS_1_GA_6x6_SSOCT_1_301.jpg,301,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_301.jpg
+10253,047_OS_1_GA_6x6_SSOCT_1_302.jpg,302,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_302.jpg
+10375,047_OS_1_GA_6x6_SSOCT_1_303.jpg,303,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_303.jpg
+10144,047_OS_1_GA_6x6_SSOCT_1_304.jpg,304,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_304.jpg
+10133,047_OS_1_GA_6x6_SSOCT_1_305.jpg,305,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_305.jpg
+10069,047_OS_1_GA_6x6_SSOCT_1_306.jpg,306,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_306.jpg
+10417,047_OS_1_GA_6x6_SSOCT_1_307.jpg,307,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_307.jpg
+10389,047_OS_1_GA_6x6_SSOCT_1_308.jpg,308,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_308.jpg
+10325,047_OS_1_GA_6x6_SSOCT_1_309.jpg,309,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_309.jpg
+10131,047_OS_1_GA_6x6_SSOCT_1_310.jpg,310,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_310.jpg
+10297,047_OS_1_GA_6x6_SSOCT_1_311.jpg,311,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_311.jpg
+10003,047_OS_1_GA_6x6_SSOCT_1_312.jpg,312,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_312.jpg
+10360,047_OS_1_GA_6x6_SSOCT_1_313.jpg,313,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_313.jpg
+10374,047_OS_1_GA_6x6_SSOCT_1_314.jpg,314,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_314.jpg
+10342,047_OS_1_GA_6x6_SSOCT_1_315.jpg,315,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_315.jpg
+10152,047_OS_1_GA_6x6_SSOCT_1_316.jpg,316,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_316.jpg
+10280,047_OS_1_GA_6x6_SSOCT_1_317.jpg,317,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_317.jpg
+10205,047_OS_1_GA_6x6_SSOCT_1_318.jpg,318,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_318.jpg
+10167,047_OS_1_GA_6x6_SSOCT_1_319.jpg,319,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_319.jpg
+10184,047_OS_1_GA_6x6_SSOCT_1_320.jpg,320,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_320.jpg
+10344,047_OS_1_GA_6x6_SSOCT_1_321.jpg,321,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_321.jpg
+10227,047_OS_1_GA_6x6_SSOCT_1_322.jpg,322,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_322.jpg
+10422,047_OS_1_GA_6x6_SSOCT_1_323.jpg,323,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_323.jpg
+10454,047_OS_1_GA_6x6_SSOCT_1_324.jpg,324,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_324.jpg
+10073,047_OS_1_GA_6x6_SSOCT_1_325.jpg,325,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_325.jpg
+10113,047_OS_1_GA_6x6_SSOCT_1_326.jpg,326,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_326.jpg
+10214,047_OS_1_GA_6x6_SSOCT_1_327.jpg,327,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_327.jpg
+10404,047_OS_1_GA_6x6_SSOCT_1_328.jpg,328,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_328.jpg
+10100,047_OS_1_GA_6x6_SSOCT_1_329.jpg,329,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_329.jpg
+10352,047_OS_1_GA_6x6_SSOCT_1_330.jpg,330,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_330.jpg
+10272,047_OS_1_GA_6x6_SSOCT_1_331.jpg,331,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_331.jpg
+10045,047_OS_1_GA_6x6_SSOCT_1_332.jpg,332,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_332.jpg
+10196,047_OS_1_GA_6x6_SSOCT_1_333.jpg,333,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_333.jpg
+10190,047_OS_1_GA_6x6_SSOCT_1_334.jpg,334,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_334.jpg
+10248,047_OS_1_GA_6x6_SSOCT_1_335.jpg,335,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_335.jpg
+10461,047_OS_1_GA_6x6_SSOCT_1_336.jpg,336,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_336.jpg
+10174,047_OS_1_GA_6x6_SSOCT_1_337.jpg,337,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_337.jpg
+10498,047_OS_1_GA_6x6_SSOCT_1_338.jpg,338,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_338.jpg
+10364,047_OS_1_GA_6x6_SSOCT_1_339.jpg,339,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_339.jpg
+10083,047_OS_1_GA_6x6_SSOCT_1_340.jpg,340,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_340.jpg
+10182,047_OS_1_GA_6x6_SSOCT_1_341.jpg,341,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_341.jpg
+10421,047_OS_1_GA_6x6_SSOCT_1_342.jpg,342,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_342.jpg
+10239,047_OS_1_GA_6x6_SSOCT_1_343.jpg,343,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_343.jpg
+10169,047_OS_1_GA_6x6_SSOCT_1_344.jpg,344,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_344.jpg
+10241,047_OS_1_GA_6x6_SSOCT_1_345.jpg,345,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_345.jpg
+10007,047_OS_1_GA_6x6_SSOCT_1_346.jpg,346,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_346.jpg
+10141,047_OS_1_GA_6x6_SSOCT_1_347.jpg,347,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_347.jpg
+10385,047_OS_1_GA_6x6_SSOCT_1_348.jpg,348,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_348.jpg
+10265,047_OS_1_GA_6x6_SSOCT_1_349.jpg,349,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_349.jpg
+10161,047_OS_1_GA_6x6_SSOCT_1_350.jpg,350,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_350.jpg
+10005,047_OS_1_GA_6x6_SSOCT_1_351.jpg,351,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_351.jpg
+10431,047_OS_1_GA_6x6_SSOCT_1_352.jpg,352,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_352.jpg
+10460,047_OS_1_GA_6x6_SSOCT_1_353.jpg,353,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_353.jpg
+10101,047_OS_1_GA_6x6_SSOCT_1_354.jpg,354,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_354.jpg
+10351,047_OS_1_GA_6x6_SSOCT_1_355.jpg,355,047_OS_1_GA_6x6_SSOCT_1,47,left,True,1,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_355.jpg
+10362,047_OS_1_GA_6x6_SSOCT_1_356.jpg,356,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_356.jpg
+10121,047_OS_1_GA_6x6_SSOCT_1_357.jpg,357,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_357.jpg
+10240,047_OS_1_GA_6x6_SSOCT_1_358.jpg,358,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_358.jpg
+10228,047_OS_1_GA_6x6_SSOCT_1_359.jpg,359,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_359.jpg
+10009,047_OS_1_GA_6x6_SSOCT_1_360.jpg,360,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_360.jpg
+10222,047_OS_1_GA_6x6_SSOCT_1_361.jpg,361,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_361.jpg
+10296,047_OS_1_GA_6x6_SSOCT_1_362.jpg,362,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_362.jpg
+10004,047_OS_1_GA_6x6_SSOCT_1_363.jpg,363,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_363.jpg
+10112,047_OS_1_GA_6x6_SSOCT_1_364.jpg,364,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_364.jpg
+10172,047_OS_1_GA_6x6_SSOCT_1_365.jpg,365,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_365.jpg
+10259,047_OS_1_GA_6x6_SSOCT_1_366.jpg,366,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_366.jpg
+10048,047_OS_1_GA_6x6_SSOCT_1_367.jpg,367,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_367.jpg
+10396,047_OS_1_GA_6x6_SSOCT_1_368.jpg,368,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_368.jpg
+10137,047_OS_1_GA_6x6_SSOCT_1_369.jpg,369,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_369.jpg
+10293,047_OS_1_GA_6x6_SSOCT_1_370.jpg,370,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_370.jpg
+10445,047_OS_1_GA_6x6_SSOCT_1_371.jpg,371,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_371.jpg
+10147,047_OS_1_GA_6x6_SSOCT_1_372.jpg,372,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_372.jpg
+10207,047_OS_1_GA_6x6_SSOCT_1_373.jpg,373,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_373.jpg
+10453,047_OS_1_GA_6x6_SSOCT_1_374.jpg,374,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_374.jpg
+10089,047_OS_1_GA_6x6_SSOCT_1_375.jpg,375,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_375.jpg
+10074,047_OS_1_GA_6x6_SSOCT_1_376.jpg,376,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_376.jpg
+10371,047_OS_1_GA_6x6_SSOCT_1_377.jpg,377,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_377.jpg
+10376,047_OS_1_GA_6x6_SSOCT_1_378.jpg,378,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_378.jpg
+10092,047_OS_1_GA_6x6_SSOCT_1_379.jpg,379,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_379.jpg
+10042,047_OS_1_GA_6x6_SSOCT_1_380.jpg,380,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_380.jpg
+10415,047_OS_1_GA_6x6_SSOCT_1_381.jpg,381,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_381.jpg
+10176,047_OS_1_GA_6x6_SSOCT_1_382.jpg,382,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_382.jpg
+10449,047_OS_1_GA_6x6_SSOCT_1_383.jpg,383,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_383.jpg
+10051,047_OS_1_GA_6x6_SSOCT_1_384.jpg,384,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_384.jpg
+10305,047_OS_1_GA_6x6_SSOCT_1_385.jpg,385,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_385.jpg
+10486,047_OS_1_GA_6x6_SSOCT_1_386.jpg,386,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_386.jpg
+10261,047_OS_1_GA_6x6_SSOCT_1_387.jpg,387,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_387.jpg
+10049,047_OS_1_GA_6x6_SSOCT_1_388.jpg,388,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_388.jpg
+10393,047_OS_1_GA_6x6_SSOCT_1_389.jpg,389,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_389.jpg
+10016,047_OS_1_GA_6x6_SSOCT_1_390.jpg,390,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,end,3,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_390.jpg
+10303,047_OS_1_GA_6x6_SSOCT_1_391.jpg,391,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_391.jpg
+10319,047_OS_1_GA_6x6_SSOCT_1_392.jpg,392,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_392.jpg
+10484,047_OS_1_GA_6x6_SSOCT_1_393.jpg,393,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_393.jpg
+10308,047_OS_1_GA_6x6_SSOCT_1_394.jpg,394,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_394.jpg
+10249,047_OS_1_GA_6x6_SSOCT_1_395.jpg,395,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_395.jpg
+10127,047_OS_1_GA_6x6_SSOCT_1_396.jpg,396,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_396.jpg
+10067,047_OS_1_GA_6x6_SSOCT_1_397.jpg,397,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_397.jpg
+10012,047_OS_1_GA_6x6_SSOCT_1_398.jpg,398,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_398.jpg
+10489,047_OS_1_GA_6x6_SSOCT_1_399.jpg,399,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_399.jpg
+10499,047_OS_1_GA_6x6_SSOCT_1_400.jpg,400,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_400.jpg
+10225,047_OS_1_GA_6x6_SSOCT_1_401.jpg,401,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_401.jpg
+10180,047_OS_1_GA_6x6_SSOCT_1_402.jpg,402,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_402.jpg
+10178,047_OS_1_GA_6x6_SSOCT_1_403.jpg,403,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_403.jpg
+10276,047_OS_1_GA_6x6_SSOCT_1_404.jpg,404,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_404.jpg
+10061,047_OS_1_GA_6x6_SSOCT_1_405.jpg,405,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_405.jpg
+10034,047_OS_1_GA_6x6_SSOCT_1_406.jpg,406,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_406.jpg
+10384,047_OS_1_GA_6x6_SSOCT_1_407.jpg,407,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_407.jpg
+10111,047_OS_1_GA_6x6_SSOCT_1_408.jpg,408,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_408.jpg
+10135,047_OS_1_GA_6x6_SSOCT_1_409.jpg,409,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_409.jpg
+10278,047_OS_1_GA_6x6_SSOCT_1_410.jpg,410,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_410.jpg
+10283,047_OS_1_GA_6x6_SSOCT_1_411.jpg,411,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_411.jpg
+10024,047_OS_1_GA_6x6_SSOCT_1_412.jpg,412,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_412.jpg
+10047,047_OS_1_GA_6x6_SSOCT_1_413.jpg,413,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_413.jpg
+10031,047_OS_1_GA_6x6_SSOCT_1_414.jpg,414,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_414.jpg
+10412,047_OS_1_GA_6x6_SSOCT_1_415.jpg,415,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_415.jpg
+10373,047_OS_1_GA_6x6_SSOCT_1_416.jpg,416,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_416.jpg
+10033,047_OS_1_GA_6x6_SSOCT_1_417.jpg,417,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_417.jpg
+10406,047_OS_1_GA_6x6_SSOCT_1_418.jpg,418,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_418.jpg
+10201,047_OS_1_GA_6x6_SSOCT_1_419.jpg,419,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_419.jpg
+10473,047_OS_1_GA_6x6_SSOCT_1_420.jpg,420,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_420.jpg
+10318,047_OS_1_GA_6x6_SSOCT_1_421.jpg,421,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_421.jpg
+10482,047_OS_1_GA_6x6_SSOCT_1_422.jpg,422,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_422.jpg
+10476,047_OS_1_GA_6x6_SSOCT_1_423.jpg,423,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_423.jpg
+10368,047_OS_1_GA_6x6_SSOCT_1_424.jpg,424,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_424.jpg
+10187,047_OS_1_GA_6x6_SSOCT_1_425.jpg,425,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_425.jpg
+10388,047_OS_1_GA_6x6_SSOCT_1_426.jpg,426,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_426.jpg
+10452,047_OS_1_GA_6x6_SSOCT_1_427.jpg,427,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_427.jpg
+10036,047_OS_1_GA_6x6_SSOCT_1_428.jpg,428,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_428.jpg
+10173,047_OS_1_GA_6x6_SSOCT_1_429.jpg,429,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_429.jpg
+10210,047_OS_1_GA_6x6_SSOCT_1_430.jpg,430,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_430.jpg
+10471,047_OS_1_GA_6x6_SSOCT_1_431.jpg,431,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_431.jpg
+10331,047_OS_1_GA_6x6_SSOCT_1_432.jpg,432,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_432.jpg
+10146,047_OS_1_GA_6x6_SSOCT_1_433.jpg,433,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_433.jpg
+10263,047_OS_1_GA_6x6_SSOCT_1_434.jpg,434,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_434.jpg
+10163,047_OS_1_GA_6x6_SSOCT_1_435.jpg,435,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_435.jpg
+10123,047_OS_1_GA_6x6_SSOCT_1_436.jpg,436,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_436.jpg
+10181,047_OS_1_GA_6x6_SSOCT_1_437.jpg,437,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_437.jpg
+10299,047_OS_1_GA_6x6_SSOCT_1_438.jpg,438,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_438.jpg
+10200,047_OS_1_GA_6x6_SSOCT_1_439.jpg,439,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_439.jpg
+10257,047_OS_1_GA_6x6_SSOCT_1_440.jpg,440,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_440.jpg
+10377,047_OS_1_GA_6x6_SSOCT_1_441.jpg,441,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_441.jpg
+10019,047_OS_1_GA_6x6_SSOCT_1_442.jpg,442,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_442.jpg
+10208,047_OS_1_GA_6x6_SSOCT_1_443.jpg,443,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_443.jpg
+10097,047_OS_1_GA_6x6_SSOCT_1_444.jpg,444,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_444.jpg
+10338,047_OS_1_GA_6x6_SSOCT_1_445.jpg,445,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_445.jpg
+10171,047_OS_1_GA_6x6_SSOCT_1_446.jpg,446,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_446.jpg
+10251,047_OS_1_GA_6x6_SSOCT_1_447.jpg,447,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_447.jpg
+10480,047_OS_1_GA_6x6_SSOCT_1_448.jpg,448,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_448.jpg
+10199,047_OS_1_GA_6x6_SSOCT_1_449.jpg,449,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_449.jpg
+10470,047_OS_1_GA_6x6_SSOCT_1_450.jpg,450,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_450.jpg
+10162,047_OS_1_GA_6x6_SSOCT_1_451.jpg,451,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_451.jpg
+10157,047_OS_1_GA_6x6_SSOCT_1_452.jpg,452,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_452.jpg
+10085,047_OS_1_GA_6x6_SSOCT_1_453.jpg,453,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_453.jpg
+10195,047_OS_1_GA_6x6_SSOCT_1_454.jpg,454,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_454.jpg
+10419,047_OS_1_GA_6x6_SSOCT_1_455.jpg,455,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_455.jpg
+10041,047_OS_1_GA_6x6_SSOCT_1_456.jpg,456,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_456.jpg
+10221,047_OS_1_GA_6x6_SSOCT_1_457.jpg,457,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_457.jpg
+10488,047_OS_1_GA_6x6_SSOCT_1_458.jpg,458,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_458.jpg
+10350,047_OS_1_GA_6x6_SSOCT_1_459.jpg,459,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_459.jpg
+10274,047_OS_1_GA_6x6_SSOCT_1_460.jpg,460,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_460.jpg
+10462,047_OS_1_GA_6x6_SSOCT_1_461.jpg,461,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_461.jpg
+10150,047_OS_1_GA_6x6_SSOCT_1_462.jpg,462,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_462.jpg
+10469,047_OS_1_GA_6x6_SSOCT_1_463.jpg,463,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_463.jpg
+10496,047_OS_1_GA_6x6_SSOCT_1_464.jpg,464,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_464.jpg
+10448,047_OS_1_GA_6x6_SSOCT_1_465.jpg,465,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_465.jpg
+10166,047_OS_1_GA_6x6_SSOCT_1_466.jpg,466,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_466.jpg
+10027,047_OS_1_GA_6x6_SSOCT_1_467.jpg,467,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_467.jpg
+10481,047_OS_1_GA_6x6_SSOCT_1_468.jpg,468,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_468.jpg
+10028,047_OS_1_GA_6x6_SSOCT_1_469.jpg,469,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_469.jpg
+10356,047_OS_1_GA_6x6_SSOCT_1_470.jpg,470,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_470.jpg
+10235,047_OS_1_GA_6x6_SSOCT_1_471.jpg,471,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_471.jpg
+10479,047_OS_1_GA_6x6_SSOCT_1_472.jpg,472,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_472.jpg
+10213,047_OS_1_GA_6x6_SSOCT_1_473.jpg,473,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_473.jpg
+10134,047_OS_1_GA_6x6_SSOCT_1_474.jpg,474,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_474.jpg
+10409,047_OS_1_GA_6x6_SSOCT_1_475.jpg,475,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_475.jpg
+10102,047_OS_1_GA_6x6_SSOCT_1_476.jpg,476,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_476.jpg
+10401,047_OS_1_GA_6x6_SSOCT_1_477.jpg,477,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_477.jpg
+10306,047_OS_1_GA_6x6_SSOCT_1_478.jpg,478,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_478.jpg
+10416,047_OS_1_GA_6x6_SSOCT_1_479.jpg,479,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_479.jpg
+10457,047_OS_1_GA_6x6_SSOCT_1_480.jpg,480,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_480.jpg
+10399,047_OS_1_GA_6x6_SSOCT_1_481.jpg,481,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_481.jpg
+10197,047_OS_1_GA_6x6_SSOCT_1_482.jpg,482,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_482.jpg
+10446,047_OS_1_GA_6x6_SSOCT_1_483.jpg,483,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_483.jpg
+10483,047_OS_1_GA_6x6_SSOCT_1_484.jpg,484,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_484.jpg
+10093,047_OS_1_GA_6x6_SSOCT_1_485.jpg,485,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_485.jpg
+10158,047_OS_1_GA_6x6_SSOCT_1_486.jpg,486,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_486.jpg
+10336,047_OS_1_GA_6x6_SSOCT_1_487.jpg,487,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_487.jpg
+10391,047_OS_1_GA_6x6_SSOCT_1_488.jpg,488,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_488.jpg
+10096,047_OS_1_GA_6x6_SSOCT_1_489.jpg,489,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_489.jpg
+10145,047_OS_1_GA_6x6_SSOCT_1_490.jpg,490,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_490.jpg
+10246,047_OS_1_GA_6x6_SSOCT_1_491.jpg,491,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_491.jpg
+10302,047_OS_1_GA_6x6_SSOCT_1_492.jpg,492,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_492.jpg
+10076,047_OS_1_GA_6x6_SSOCT_1_493.jpg,493,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_493.jpg
+10091,047_OS_1_GA_6x6_SSOCT_1_494.jpg,494,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_494.jpg
+10292,047_OS_1_GA_6x6_SSOCT_1_495.jpg,495,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_495.jpg
+10038,047_OS_1_GA_6x6_SSOCT_1_496.jpg,496,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_496.jpg
+10369,047_OS_1_GA_6x6_SSOCT_1_497.jpg,497,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_497.jpg
+10398,047_OS_1_GA_6x6_SSOCT_1_498.jpg,498,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_498.jpg
+10397,047_OS_1_GA_6x6_SSOCT_1_499.jpg,499,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_499.jpg
+10124,047_OS_1_GA_6x6_SSOCT_1_500.jpg,500,047_OS_1_GA_6x6_SSOCT_1,47,left,False,0,E - no fovea,4,/Volumes/fsmresfiles/Ophthalmology/Mirza_Images/AMD/dAMD_GA/all_slices_3/047_OS_1_GA_6x6_SSOCT_1_500.jpg
