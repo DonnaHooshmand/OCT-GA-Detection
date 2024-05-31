@@ -13,3 +13,6 @@ venv/
 
 FoveaProgression/experiments/
 FoveaProgression/data/cache/
+
+FoveaProgression/scripts/main_Y.py
+FoveaProgression/scripts/main_Z.py
