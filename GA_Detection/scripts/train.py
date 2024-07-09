@@ -1,6 +1,7 @@
 import torch
 from evaluate import*
 from log import*
+from tqdm import tqdm
 
 def train_model(model, train_loader, val_loader, criterion, optimizer, num_epochs, best_model_path, experiment_dir):
     best_val_loss = float('inf')
@@ -9,7 +10,7 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, num_epoch
     train_accuracies = []
     val_accuracies = []
 
-    for epoch in range(num_epochs):
+    for epoch in tqdm(range(num_epochs)):
         model.train()  # Set model to training mode
         train_loss = 0.0
         correct_train = 0

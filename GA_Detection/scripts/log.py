@@ -35,7 +35,6 @@ def create_experiment_folders(base_dir):
     time_str = datetime.now().strftime('%H%M%S')
     experiment_dir = os.path.join(base_dir, date_str, time_str)
     os.makedirs(experiment_dir, exist_ok=True)
-    
     subdirs = ['model_architecture', 'train_val_test_details', 'best_model', 'model_weights', 'loss_accuracy_curves', 'confusion_matrix', 'results']
     for subdir in subdirs:
         os.makedirs(os.path.join(experiment_dir, subdir), exist_ok=True)

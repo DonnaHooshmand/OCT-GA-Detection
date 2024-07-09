@@ -8,6 +8,7 @@ import torch
 from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset
 import pickle
+from tqdm import tqdm
 
 class CLAHETransform:
     def __init__(self, clip_limit=2.0, tile_grid_size=(8, 8)):
@@ -82,7 +83,6 @@ def load_images_and_labels(data_dir,path_data):
     :param path_data: Path to the CSV file containing dataset metadata.
     :return: Lists containing arrays of images and labels for each sequence.
     """
-    
     df = pd.read_csv(path_data)
     df['image_path'] = df.apply(lambda row: os.path.join(data_dir, row['scan_name']), axis=1)
     df = df[df['image_path'].apply(os.path.exists)]
@@ -91,12 +91,12 @@ def load_images_and_labels(data_dir,path_data):
     X = [] # image sequence
     Y = [] # labels
     scan_id = []  # appointment scan folder names
-
     
     appointments = df['folder_name'].unique()
 
+
     with ThreadPoolExecutor(max_workers=8) as executor:
-        for appointment in appointments:
+        for appointment in tqdm(appointments):
             slices = df[df['folder_name'] == appointment]
             future_to_image = {executor.submit(load_image, row['image_path']): row['sequence_label'] for _, row in slices.iterrows()}
             
@@ -160,7 +160,6 @@ def data_loader(data_dir, path_data, batch_size):
     
     print("Processing data...")
     X, Y, scan_id = load_images_and_labels(data_dir, path_data)
-
     # Define the transformations
     transform = transforms.Compose([
         # CLAHETransform(clip_limit=2.0, tile_grid_size=(8, 8)),
@@ -172,9 +171,9 @@ def data_loader(data_dir, path_data, batch_size):
     # Convert the data to tensors
     X = [np.stack(sequence) for sequence in X]  # Stack images in each sequence
     Y = [np.array(sequence) for sequence in Y]  # Convert labels to arrays
-
+    print("creating eyescan data")
     dataset = EyeScanDataset(X, Y, scan_id, transform=transform)  # Create dataset objects
-
+    print("back from getting eyescan data")
     data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)  # Create DataLoaders
     # visualize_data(data_loader)
     return data_loader
