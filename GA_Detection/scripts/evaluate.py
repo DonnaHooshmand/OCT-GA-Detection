@@ -52,9 +52,11 @@ def evaluate_and_save_results(model, test_loader, experiment_dir):
             cam = GradCAM(model=model, target_layers=target_layers)
                     
             targets = [ClassifierOutputTarget(2)]
-                    
+            breakpoint()
+                
             ## create an input tensor image for your model
             ## input_tenso can be a batch tensor with several images
+            images = images.requires_grad_(True)
             grayscale_cam = cam(images, targets=targets)
                     
             # visualization = show_cam_on_image(images, grayscale_cam, use_rgb=False)
