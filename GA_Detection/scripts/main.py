@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 import logging
 
-from pytorch_grad_cam import GradCAM, HiResCam, GradCAMPlusPlus, AblationCAM, XGradCAM, EigenCAM, EigenGradCAM
+from pytorch_grad_cam import GradCAM
 from pytorch_grad_cam.utils.image import show_cam_on_image
 from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 
@@ -94,20 +94,7 @@ def main():
     torch.save(model.state_dict(), os.path.join(experiment_dir, 'model_weights', 'final_model_weights.pth'))
 
     evaluate_and_save_results(model, test_loader, experiment_dir)
-    
-    ## Grad Cam 
-    target_layers = [model.layer4[-1]]
-    cam = GradCAM(model=model, target_layers=target_layers, use_cuda=torch.cuda.is_available())
-    
-    targets = [ClassifierOutputTarget(281)]
-    
-    ## create an input tensor image for your model
-    ## input_tenso can be a batch tensor with several images
-    grayscale_cam = cam(input_tensor, targets=targets)
-    
-    visualization = show_cam_on_image(input_tensor, grayscale_cam, use_rgb=True)
-    
-    model.outputs = cam.outputs
+
     
     
 

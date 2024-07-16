@@ -4,8 +4,10 @@ import torch
 import csv
 import os
 import numpy as np
+from PIL import Image
+import cv2
 
-from pytorch_grad_cam import GradCAM, HiResCam, GradCAMPlusPlus, AblationCAM, XGradCAM, EigenCAM, EigenGradCAM
+from pytorch_grad_cam import GradCAM
 from pytorch_grad_cam.utils.image import show_cam_on_image
 from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 
@@ -44,20 +46,26 @@ def evaluate_and_save_results(model, test_loader, experiment_dir):
                     for frame_idx, (true_label, pred_label) in enumerate(zip(seq_true_labels, seq_pred_labels)):
                         writer.writerow([frame_idx, true_label, pred_label])
             
-                ## Grad Cam 
-        
-                target_layers = [model.layer4[-1]]
-                cam = GradCAM(model=model, target_layers=target_layers, use_cuda=torch.cuda.is_available())
+            ## Grad Cam 
+                    
+            target_layers = [model.resnet.layer4[-1]]
+            cam = GradCAM(model=model, target_layers=target_layers)
+                    
+            targets = [ClassifierOutputTarget(2)]
+                    
+            ## create an input tensor image for your model
+            ## input_tenso can be a batch tensor with several images
+            grayscale_cam = cam(images, targets=targets)
+                    
+            # visualization = show_cam_on_image(images, grayscale_cam, use_rgb=False)
+                    
+            model.outputs = cam.outputs
+                    
+            # im = Image.fromarray(visualization)
+            cv2.imwrite(os.path.join(experiment_dir, 'test_picture_outputs', f'{folder_name+seq_idx}.jpg'), grayscale_cam[0,:,:])
                 
-                targets = [ClassifierOutputTarget(1)]
                 
-                ## create an input tensor image for your model
-                ## input_tenso can be a batch tensor with several images
-                grayscale_cam = cam(images, targets=targets)
                 
-                visualization = show_cam_on_image(images, grayscale_cam, use_rgb=False)
-                
-                model.outputs = cam.outputs
     
     
     all_labels, all_predictions = aggregate_all_labels_predictions(test_loader, model)

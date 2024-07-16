@@ -4,6 +4,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import logging
+import random
 
 from dataloader import *
 from CNNLSTM import *
@@ -20,8 +21,8 @@ def main():
     experiment_dir = create_experiment_folders('./GA_Detection/experiments')
     
     num_classes=3 #number of classes
-    # model = CNNLSTMTest(num_classes)
-    model = CNNLSTMSeq2Seq(num_classes)
+    model = ResNet34_LSTM(num_classes)
+    # model = CNNLSTMSeq2Seq(num_classes)
     
     # model parameters
     lr = 0.0001 #learning rate
@@ -70,7 +71,18 @@ def main():
     torch.save(model.state_dict(), os.path.join(experiment_dir, 'model_weights', 'final_model_weights.pth'))
 
     evaluate_and_save_results(model, test_loader, experiment_dir)
+    
+    '''
+    target_layers = [model.resnet.layer4[-1]]
+    cam = GradCAM(model=model, target_layers=target_layers)
 
+    targets = [ClassifierOutputTarget(2)]
+
+    ## create an input tensor image for your model
+    ## input_tenso can be a batch tensor with several images cv2.resize(np.float32(img), target_size)
+    grayscale_cam = cam(images, targets=targets)
+    cv2.imwrite(os.path.join(experiment_dir, 'test_picture_outputs', f'{folder_name+seq_idx}.jpg'), grayscale_cam[0,:,:])
+    '''
     # # Git commit and push changes
     # base_branch = "training"
     # timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')

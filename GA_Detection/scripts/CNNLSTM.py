@@ -54,7 +54,8 @@ class ResNet34_LSTM_Improved(nn.Module):
         cnn_out = cnn_out.view(cnn_out.size(0), -1)
         cnn_out = cnn_out.view(batch_size, sequence_length, -1)
         
-        # LSTM processing
+        # LSTM processing        breakpoint()
+
         lstm_out, _ = self.lstm(cnn_out)
         
         # Residual connection
@@ -74,6 +75,8 @@ class ResNet34_LSTM(nn.Module):
         resnet = models.resnet34(pretrained=True)
         # Adjust the first convolutional layer to accept 1 channel input (grayscale images)
         resnet.conv1 = nn.Conv2d(1, 64, kernel_size=7, stride=2, padding=3, bias=False)
+        
+        self.resnet = resnet
         
         # Remove the fully connected and average pooling layers from ResNet
         self.feature_extractor = nn.Sequential(
@@ -144,7 +147,8 @@ class CNNLSTMSeq2Seq(nn.Module):
                             num_layers=2,  # Number of LSTM layers
                             batch_first=True,  # Input/Output tensors are provided as (batch, seq, feature)
                             bidirectional=True,  # Bidirectional LSTM
-                            dropout=0.5)  # Dropout for regularization
+                            dropout=0.5)  # Dropout for regularization        breakpoint()
+
         
         # Fully connected layer to produce a prediction for each time step
         self.fc = nn.Linear(128 * 2, num_classes)  # Multiply by 2 for bidirectional LSTM
