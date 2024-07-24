@@ -12,6 +12,17 @@ from pytorch_grad_cam.utils.image import show_cam_on_image
 from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 
 
+class LSTMOutputTarget:
+    def __init__(self, index, category):
+        self.index = index
+        self.category = category
+    def __call__(self, model_output):
+        if len(model_output.shape)==2:
+            return model_output[self.index, self.category]
+        else:
+            return model_output[:, self.index, self.category]
+        
+        
 def evaluate_and_save_results(model, test_loader, experiment_dir):
     model.eval()  # Set the model to evaluation mode
     
@@ -51,20 +62,26 @@ def evaluate_and_save_results(model, test_loader, experiment_dir):
             target_layers = [model.resnet.layer4[-1]]
             cam = GradCAM(model=model, target_layers=target_layers)
                     
-            targets = [ClassifierOutputTarget(2)]
-            breakpoint()
+            targets = [LSTMOutputTarget(5,2)]
                 
             ## create an input tensor image for your model
             ## input_tenso can be a batch tensor with several images
             images = images.requires_grad_(True)
+            
             grayscale_cam = cam(images, targets=targets)
+            
+            ## visualizes each image within the sequence
+            for i in range(grayscale_cam.shape[0]):
+                im = Image.fromarray((grayscale_cam[i,:,:]*255))
+                im.show()
+            
                     
             # visualization = show_cam_on_image(images, grayscale_cam, use_rgb=False)
                     
-            model.outputs = cam.outputs
+            # model.outputs = cam.outputs
                     
             # im = Image.fromarray(visualization)
-            cv2.imwrite(os.path.join(experiment_dir, 'test_picture_outputs', f'{folder_name+seq_idx}.jpg'), grayscale_cam[0,:,:])
+            cv2.imwrite(os.path.join(experiment_dir, 'test_picture_outputs', f'{folder_name+seq_idx}.jpg'), grayscale_cam[i,:,:]*255)
                 
                 
                 
