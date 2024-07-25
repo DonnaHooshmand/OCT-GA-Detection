@@ -24,7 +24,7 @@ class LSTMOutputTarget:
         
         
 def evaluate_and_save_results(model, test_loader, experiment_dir):
-    #model.train() 
+    model.train() 
     
     for images, labels, folder_names in test_loader:
         if torch.cuda.is_available():
