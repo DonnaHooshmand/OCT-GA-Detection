@@ -36,7 +36,7 @@ def main():
     
     batch_size = 1 #batch size
     
-    data_path = '../data/experiment/01/'
+    data_path = '../data/X/'
     # data_path = './FoveaProgression/data/sample/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'

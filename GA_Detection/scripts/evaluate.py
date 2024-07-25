@@ -24,66 +24,66 @@ class LSTMOutputTarget:
         
         
 def evaluate_and_save_results(model, test_loader, experiment_dir):
-    model.eval()  # Set the model to evaluation mode
+    #model.train() 
     
-    with torch.no_grad():
-        for images, labels, folder_names in test_loader:
-            if torch.cuda.is_available():
-                images, labels = images.cuda(), labels.cuda()
+    for images, labels, folder_names in test_loader:
+        if torch.cuda.is_available():
+            images, labels = images.cuda(), labels.cuda()
 
-            # Forward pass
-            outputs = model(images)
-            batch_size, seq_len, num_classes = outputs.size()
+        model.eval()
+        # Forward pass
+        outputs = model(images)
+        batch_size, seq_len, num_classes = outputs.size()
+        
+        # Flatten the outputs and labels for evaluation
+        outputs = outputs.view(batch_size, seq_len, num_classes)
+        labels = labels.view(batch_size, seq_len)
+        
+        for seq_idx in range(batch_size):
+            seq_outputs = outputs[seq_idx]
+            seq_labels = labels[seq_idx]
             
-            # Flatten the outputs and labels for evaluation
-            outputs = outputs.view(batch_size, seq_len, num_classes)
-            labels = labels.view(batch_size, seq_len)
+            _, predicted = torch.max(seq_outputs, 1)
             
-            for seq_idx in range(batch_size):
-                seq_outputs = outputs[seq_idx]
-                seq_labels = labels[seq_idx]
-                
-                _, predicted = torch.max(seq_outputs, 1)
-                
-                seq_true_labels = seq_labels.cpu().numpy()
-                seq_pred_labels = predicted.cpu().numpy()
-                
-                # Save predictions and labels for each sequence to a CSV file
-                folder_name = folder_names[seq_idx]
-                output_csv_path = os.path.join(experiment_dir, 'results', f'{folder_name}.csv')
-                with open(output_csv_path, 'w', newline='') as file:
-                    writer = csv.writer(file)
-                    writer.writerow(['Frame Index', 'True Label', 'Predicted Label'])
-                    for frame_idx, (true_label, pred_label) in enumerate(zip(seq_true_labels, seq_pred_labels)):
-                        writer.writerow([frame_idx, true_label, pred_label])
+            seq_true_labels = seq_labels.cpu().numpy()
+            seq_pred_labels = predicted.cpu().numpy()
             
-            ## Grad Cam 
-                    
-            target_layers = [model.resnet.layer4[-1]]
-            cam = GradCAM(model=model, target_layers=target_layers)
-                    
-            targets = [LSTMOutputTarget(5,2)]
+            # Save predictions and labels for each sequence to a CSV file
+            folder_name = folder_names[seq_idx]
+            output_csv_path = os.path.join(experiment_dir, 'results', f'{folder_name}.csv')
+            with open(output_csv_path, 'w', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow(['Frame Index', 'True Label', 'Predicted Label'])
+                for frame_idx, (true_label, pred_label) in enumerate(zip(seq_true_labels, seq_pred_labels)):
+                    writer.writerow([frame_idx, true_label, pred_label])
+        
+        ## Grad Cam 
                 
-            ## create an input tensor image for your model
-            ## input_tenso can be a batch tensor with several images
-            images = images.requires_grad_(True)
-            
-            grayscale_cam = cam(images, targets=targets)
-            
-            ## visualizes each image within the sequence
-            for i in range(grayscale_cam.shape[0]):
-                im = Image.fromarray((grayscale_cam[i,:,:]*255))
-                im.show()
-            
-                    
-            # visualization = show_cam_on_image(images, grayscale_cam, use_rgb=False)
-                    
-            # model.outputs = cam.outputs
-                    
-            # im = Image.fromarray(visualization)
-            cv2.imwrite(os.path.join(experiment_dir, 'test_picture_outputs', f'{folder_name+seq_idx}.jpg'), grayscale_cam[i,:,:]*255)
+        target_layers = [model.resnet.layer4[-1]]
+        cam = GradCAM(model=model, target_layers=target_layers)
                 
+        targets = [LSTMOutputTarget(5,2)]
+            
+        ## create an input tensor image for your model
+        ## input_tenso can be a batch tensor with several images
+        images = images.requires_grad_(True)
+        
+        grayscale_cam = cam(images, targets=targets)
+        
+        ## visualizes each image within the sequence
+        for i in range(grayscale_cam.shape[0]):
+            im = Image.fromarray((grayscale_cam[i,:,:]*255))
+            im.show()
+        
                 
+        # visualization = show_cam_on_image(images, grayscale_cam, use_rgb=False)
+                
+        # model.outputs = cam.outputs
+                
+        # im = Image.fromarray(visualization)
+        cv2.imwrite(os.path.join(experiment_dir, 'test_picture_outputs', f'{folder_name+seq_idx}.jpg'), grayscale_cam[i,:,:]*255)
+            
+        
                 
     
     
