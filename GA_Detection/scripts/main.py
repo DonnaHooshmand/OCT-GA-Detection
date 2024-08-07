@@ -32,7 +32,7 @@ def calculate_class_weights(train_loader, num_classes):
 
 def main():
 
-    experiment_dir = create_experiment_folders('../GADetectionExperiments/experiments')
+    experiment_dir = create_experiment_folders('../GADetectionExperiments')
     
     batch_size = 1 #batch size
     

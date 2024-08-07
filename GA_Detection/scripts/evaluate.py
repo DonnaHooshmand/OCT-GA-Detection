@@ -24,16 +24,27 @@ class LSTMOutputTarget:
         
         
 def evaluate_and_save_results(model, test_loader, experiment_dir):
+    print("*****************************************")
     model.train() 
     
     for images, labels, folder_names in test_loader:
+        print("---------iteration---------")
+        print("folder_names: ", folder_names)
         if torch.cuda.is_available():
             images, labels = images.cuda(), labels.cuda()
 
-        model.eval()
+        ## August 5th -- commenting out eval
+        ## model.eval()
+
         # Forward pass
         outputs = model(images)
         batch_size, seq_len, num_classes = outputs.size()
+
+        print(outputs)
+        print(batch_size)
+        print(seq_len)
+        print(num_classes)
+        print(outputs.shape)
         
         # Flatten the outputs and labels for evaluation
         outputs = outputs.view(batch_size, seq_len, num_classes)
@@ -57,12 +68,12 @@ def evaluate_and_save_results(model, test_loader, experiment_dir):
                 for frame_idx, (true_label, pred_label) in enumerate(zip(seq_true_labels, seq_pred_labels)):
                     writer.writerow([frame_idx, true_label, pred_label])
         
-        ## Grad Cam 
-                
+        ## Grad Cam
         target_layers = [model.resnet.layer4[-1]]
         cam = GradCAM(model=model, target_layers=target_layers)
-                
-        targets = [LSTMOutputTarget(5,2)]
+        cam.model = model.train()
+        ## August 5th: changed 5 -> 6
+        targets = [LSTMOutputTarget(6,2)]
             
         ## create an input tensor image for your model
         ## input_tenso can be a batch tensor with several images
@@ -70,10 +81,11 @@ def evaluate_and_save_results(model, test_loader, experiment_dir):
         
         grayscale_cam = cam(images, targets=targets)
         
+        print(grayscale_cam.shape)
         ## visualizes each image within the sequence
         for i in range(grayscale_cam.shape[0]):
             im = Image.fromarray((grayscale_cam[i,:,:]*255))
-            im.show()
+            # im.show()
         
                 
         # visualization = show_cam_on_image(images, grayscale_cam, use_rgb=False)
@@ -81,10 +93,10 @@ def evaluate_and_save_results(model, test_loader, experiment_dir):
         # model.outputs = cam.outputs
                 
         # im = Image.fromarray(visualization)
-        cv2.imwrite(os.path.join(experiment_dir, 'test_picture_outputs', f'{folder_name+seq_idx}.jpg'), grayscale_cam[i,:,:]*255)
+            cv2.imwrite(os.path.join(experiment_dir, 'gradcam_results', f'{folder_name}.jpg'), grayscale_cam[i,:,:]*255)
             
         
-                
+
     
     
     all_labels, all_predictions = aggregate_all_labels_predictions(test_loader, model)
