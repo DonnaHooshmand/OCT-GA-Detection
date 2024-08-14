@@ -73,7 +73,8 @@ def load_image(img_path):
     """
     img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
     if img is not None:
-        img = cv2.resize(img, (128, 128))
+        # img = cv2.resize(img, (512, 512))
+        img = cv2.resize(img, (128,128))
         return img / 255.0
     return None
 

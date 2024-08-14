@@ -70,6 +70,7 @@ def main():
     class_weights = calculate_class_weights(train_loader, num_classes=num_classes)
     if torch.cuda.is_available():
         class_weights = class_weights.cuda()
+    print("setting up model hyperparameters")
     
     # model parameters
     lr = 0.0001 #learning rate

@@ -83,6 +83,7 @@ def evaluate_and_save_results(model, test_loader, experiment_dir):
         
         print(grayscale_cam.shape)
         ## visualizes each image within the sequence
+        count = 0
         for i in range(grayscale_cam.shape[0]):
             im = Image.fromarray((grayscale_cam[i,:,:]*255))
             # im.show()
@@ -93,8 +94,8 @@ def evaluate_and_save_results(model, test_loader, experiment_dir):
         # model.outputs = cam.outputs
                 
         # im = Image.fromarray(visualization)
-            cv2.imwrite(os.path.join(experiment_dir, 'gradcam_results', f'{folder_name}.jpg'), grayscale_cam[i,:,:]*255)
-            
+            cv2.imwrite(os.path.join(experiment_dir, 'gradcam_results', f'{folder_name}_{count}.jpg'), grayscale_cam[i,:,:]*255)
+            count+=1
         
 
     

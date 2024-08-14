@@ -5,6 +5,10 @@ import torch.nn as nn
 import torch.optim as optim
 import logging
 
+from pytorch_grad_cam import GradCAM
+from pytorch_grad_cam.utils.image import show_cam_on_image
+from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
+
 from dataloader import *
 from CNNLSTM import *
 from train import *
@@ -28,11 +32,11 @@ def calculate_class_weights(train_loader, num_classes):
 
 def main():
 
-    experiment_dir = create_experiment_folders('./GA_Detection/experiments')
+    experiment_dir = create_experiment_folders('../GADetectionExperiments')
     
     batch_size = 1 #batch size
     
-    data_path = './GA_Detection/data/experiment/X/'
+    data_path = '../data/X/'
     # data_path = './FoveaProgression/data/sample/'
     train_path = data_path + 'train.csv'
     val_path = data_path + 'val.csv'
@@ -56,16 +60,17 @@ def main():
     print("\nTest Loader complete")
     log_data_details(train_loader, val_loader, test_loader, os.path.join(experiment_dir, 'train_val_test_details', 'data_details.txt'))
     
-
+    
     num_classes=3 #number of classes
-    # model = CNNLSTMSeq2Seq(num_classes)
-    model = ResNet34_LSTM(num_classes)
+    model = CNNLSTMSeq2Seq(num_classes)
+    # model = ResNet34_LSTM(num_classes)
     # model = ResNet34_LSTM_Improved(num_classes)
 
     # Calculate class weights
     class_weights = calculate_class_weights(train_loader, num_classes=num_classes)
     if torch.cuda.is_available():
         class_weights = class_weights.cuda()
+    print("setting up model hyperparameters")
     
     # model parameters
     lr = 0.0001 #learning rate
@@ -90,6 +95,9 @@ def main():
     torch.save(model.state_dict(), os.path.join(experiment_dir, 'model_weights', 'final_model_weights.pth'))
 
     evaluate_and_save_results(model, test_loader, experiment_dir)
+
+    
+    
 
     # # Git commit and push changes
     # base_branch = "training"
